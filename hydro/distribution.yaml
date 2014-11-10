@@ -1,0 +1,84 @@
+%YAML 1.1
+---
+release_platforms:
+  ubuntu:
+  - precise
+repositories:
+  grizzly_firmware:
+    release:
+      packages:
+      - grizzly_avr
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/grizzly_firmware-gbp.git
+      version: 0.0.1-0
+  grizzly_robot:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly_robot.git
+      version: hydro-devel
+    release:
+      packages:
+      - grizzly_base
+      - grizzly_bringup
+      - grizzly_robot
+      tags:
+        release: release/hydro/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly_robot-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly_robot.git
+      version: hydro-devel
+  kingfisher_controller:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_controller-gbp.git
+      version: 0.0.5-0
+  kingfisher_firmware:
+    release:
+      packages:
+      - kingfisher_avr
+      - kingfisher_firmware
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
+      version: 0.0.5-0
+  kingfisher_robot:
+    release:
+      packages:
+      - kingfisher_bringup
+      - kingfisher_nmea
+      - kingfisher_robot
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_robot-gbp.git
+      version: 0.0.4-0
+  kingfisher_simulator:
+    doc:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_simulator.git
+      version: hydro-devel
+    release:
+      packages:
+      - kingfisher_gazebo
+      - kingfisher_gazebo_plugins
+      - kingfisher_simulator
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_simulator-gbp.git
+      version: 0.0.3-0
+    source:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_simulator.git
+      version: hydro-devel
+    status: maintained
+  robot_pose_ekf_gpsfix:
+    release:
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/robot_pose_ekf_gpsfix-gbp.git
+      version: 1.0.1-0
+type: distribution
+version: 1

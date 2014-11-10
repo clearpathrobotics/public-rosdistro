@@ -1,0 +1,8 @@
+kingfisher_controller:
+  ubuntu: ros-hydro-kingfisher-controller
+kingfisher_firmware:
+  ubuntu: ros-hydro-kingfisher-firmware
+robot_pose_ekf_gpsfix:
+  ubuntu: ros-hydro-robot-pose-ekf-gpsfix
+grizzly_avr:
+  ubuntu: ros-hydro-grizzly-avr

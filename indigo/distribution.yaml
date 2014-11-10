@@ -1,0 +1,17 @@
+%YAML 1.1
+---
+release_platforms:
+  ubuntu:
+  - trusty
+repositories:
+  jackal_firmware:
+    doc:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+      version: indigo-devel
+    source:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+      version: indigo-devel
+type: distribution
+version: 1
