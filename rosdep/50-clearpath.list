@@ -1,3 +1,5 @@
 yaml https://raw.githubusercontent.com/clearpathrobotics/public-rosdistro/master/rosdep/hydro.yaml hydro 
 yaml https://raw.githubusercontent.com/clearpathrobotics/public-rosdistro/master/rosdep/indigo.yaml indigo 
 yaml https://raw.githubusercontent.com/clearpathrobotics/public-rosdistro/master/rosdep/jade.yaml jade
+
+yaml https://raw.githubusercontent.com/clearpathrobotics/public-rosdistro/master/rosdep/extras.yaml
