@@ -28,10 +28,10 @@ repositories:
       url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
       version: indigo-devel
   jackal_robot:
-    doc:
-      type: git
-      url: https://github.com/jackal/jackal_robot.git
-      version: indigo-devel
+#    doc:
+#      type: git
+#      url: https://github.com/jackal/jackal_robot.git
+#      version: indigo-devel
     source:
       type: git
       url: https://github.com/jackal/jackal_robot.git
