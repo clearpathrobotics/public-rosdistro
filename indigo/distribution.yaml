@@ -19,10 +19,10 @@ repositories:
       url: https://github.com/jackal/imu_filter_madgwick.git
       version: indigo-devel
   jackal_firmware:
-    doc:
-      type: git
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
-      version: indigo-devel
+#    doc:
+#      type: git
+#      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+#      version: indigo-devel
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
