@@ -4,6 +4,20 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  imu_filter_madgwick:
+    doc:
+      type: git
+      url: https://github.com/jackal/imu_filter_madgwick.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/imu_filter_madgwick-release.git
+      version: 0.1.1-0
+    source:
+      type: git
+      url: https://github.com/jackal/imu_filter_madgwick.git
+      version: indigo-devel
   jackal_firmware:
     doc:
       type: git
@@ -12,6 +26,15 @@ repositories:
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+      version: indigo-devel
+  jackal_robot:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
+      version: indigo-devel
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
       version: indigo-devel
 type: distribution
 version: 1
