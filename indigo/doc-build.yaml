@@ -1,6 +1,4 @@
 %YAML 1.1
-# ROS doc-build file
-# see REP 137: http://ros.org/reps/rep-0137.html
 ---
 doc_tag_index_repository:
   type: master
@@ -14,12 +12,12 @@ notifications:
 targets:
   _config:
     apt_mirrors:
-    - http://packages/building/ubuntu DISTRO main
-    - http://packages.ros.org/ros/ubuntu/ DISTRO main
+    - http://localhost:8000/building/ubuntu DISTRO main
+    - http://packages.ros.org/ros/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     apt_keys:
+    - http://localhost:8000/public.key
     - http://packages.ros.org/ros.key
-    - http://packages/public.key
   ubuntu:
     trusty:
       amd64:
