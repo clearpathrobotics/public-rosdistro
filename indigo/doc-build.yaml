@@ -12,11 +12,11 @@ notifications:
 targets:
   _config:
     apt_mirrors:
-    - http://localhost:8000/building/ubuntu DISTRO main
+    - http://localhost/building/ubuntu DISTRO main
     - http://packages.ros.org/ros/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     apt_keys:
-    - http://localhost:8000/public.key
+    - http://localhost/public.key
     - http://packages.ros.org/ros.key
   ubuntu:
     trusty:
