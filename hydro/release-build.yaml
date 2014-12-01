@@ -11,6 +11,7 @@ targets:
     - http://localhost/building/ubuntu DISTRO main
     - http://packages.ros.org/ros/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
+    - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://localhost/public.key
     - http://packages.ros.org/ros.key
