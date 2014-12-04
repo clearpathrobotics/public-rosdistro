@@ -8,10 +8,11 @@ repositories:
     release:
       packages:
       - grizzly_avr
+      - grizzly_firmware
       tags:
         release: release/hydro/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/grizzly_firmware-gbp.git
-      version: 0.0.1-1
+      version: 0.1.0-0
   grizzly_robot:
     doc:
       type: git
