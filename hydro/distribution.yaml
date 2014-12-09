@@ -80,6 +80,6 @@ repositories:
       tags:
         release: release/hydro/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/robot_pose_ekf_gpsfix-gbp.git
-      version: 1.0.1-0
+      version: 1.0.1-1
 type: distribution
 version: 1
