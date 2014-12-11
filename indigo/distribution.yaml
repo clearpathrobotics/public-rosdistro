@@ -6,12 +6,6 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
-#imu_filter_madgwick:
-#    release:
-#      tags:
-#        release: release/indigo/{package}/{version}
-#      url: https://github.com/uos-gbp/imu_tools-release.git
-#      version: 1.0.1-0
   jackal_firmware:
     source:
       type: git
@@ -34,7 +28,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
-      version: 0.2.0-1
+      version: 0.2.2-0
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
