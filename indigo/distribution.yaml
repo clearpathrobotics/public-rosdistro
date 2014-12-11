@@ -7,19 +7,11 @@ release_platforms:
   - trusty
 repositories:
   imu_filter_madgwick:
-    doc:
-      type: git
-      url: https://github.com/jackal/imu_filter_madgwick.git
-      version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/imu_filter_madgwick-release.git
-      version: 0.1.1-0
-    source:
-      type: git
-      url: https://github.com/jackal/imu_filter_madgwick.git
-      version: indigo-devel
+      url: https://github.com/uos-gbp/imu_tools-release.git
+      version: 1.0.1-0
   jackal_firmware:
     doc:
       type: git
