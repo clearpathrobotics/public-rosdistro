@@ -1,4 +1,6 @@
 %YAML 1.1
+# ROS distribution file
+# see REP 141: http://ros.org/reps/rep-0141.html
 ---
 release_platforms:
   ubuntu:
@@ -36,5 +38,23 @@ repositories:
       type: git
       url: https://github.com/jackal/jackal_robot.git
       version: indigo-devel
+  kingfisher_firmware:
+    doc:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
+      version: indigo-devel
+    release:
+      packages:
+      - kingfisher_avr
+      - kingfisher_firmware
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
+      version: indigo-devel
+    status: maintained
 type: distribution
 version: 1
