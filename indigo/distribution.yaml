@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  imu_filter_madgwick:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/uos-gbp/imu_tools-release.git
+      version: 1.0.1-0
   jackal_firmware:
     source:
       type: git
