@@ -11,11 +11,13 @@ targets:
     apt_mirrors:
     - http://localhost/building/ubuntu DISTRO main
     - http://packages.ros.org/ros/ubuntu DISTRO main
+    - http://ppa.launchpad.net/mikepurvis/stm32/ubuntu DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://localhost/public.key
     - http://packages.ros.org/ros.key
+    - http://keyserver.ubuntu.com/pks/lookup?op=get&search=0xEBDDE2A9100C5795
   ubuntu:
     trusty:
       amd64:
