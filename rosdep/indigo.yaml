@@ -1,15 +1,8 @@
-grizzly_avr:
-  fedora: ros-indigo-grizzly-avr
-  ubuntu: ros-indigo-grizzly-avr
-imu_filter_madgwick:
-  fedora: ros-indigo-imu-filter-madgwick
-  ubuntu: ros-indigo-imu-filter-madgwick
+grizzly_firmware:
+  ubuntu: ros-indigo-grizzly-firmware
 jackal_firmware:
-  fedora: ros-indigo-jackal-firmware
   ubuntu: ros-indigo-jackal-firmware
 kingfisher_controller:
-  fedora: ros-indigo-kingfisher-controller
   ubuntu: ros-indigo-kingfisher-controller
 kingfisher_firmware:
-  fedora: ros-indigo-kingfisher-firmware
   ubuntu: ros-indigo-kingfisher-firmware
