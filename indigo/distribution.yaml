@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  grizzly:
+    release:
+      packages:
+      - grizzly_description
+      - grizzly_motion
+      - grizzly_msgs
+      - grizzly_navigation
+      - grizzly_teleop
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly-release.git
+      version: 0.3.0-0
   imu_filter_madgwick:
     release:
       tags:
