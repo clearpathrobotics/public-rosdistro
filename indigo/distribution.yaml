@@ -110,6 +110,21 @@ repositories:
       url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
       version: indigo-devel
     status: maintained
+  robot_upstart:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/robot_upstart.git
+      version: indigo-devel-future
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/robot_upstart-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/robot_upstart.git
+      version: indigo-devel-future
+    status: maintained
   roboteq:
     release:
       packages:
