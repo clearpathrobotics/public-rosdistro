@@ -61,17 +61,25 @@ repositories:
       url: https://github.com/uos-gbp/imu_tools-release.git
       version: 1.0.1-0
   jackal:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal.git
+      version: indigo-devel
     release:
       packages:
       - jackal_control
       - jackal_description
-      - jackal_diff_drive_controller
       - jackal_msgs
       - jackal_navigation
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.4.0-0
+      version: 0.4.2-0
+    source:
+      type: git
+      url: https://github.com/jackal/jackal.git
+      version: indigo-devel
+    status: maintained
   jackal_firmware:
     doc:
       type: git
