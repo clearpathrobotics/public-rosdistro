@@ -137,7 +137,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/LMS1xx-release.git
-      version: 0.1.1-0
+      version: 0.1.2-0
   robot_upstart:
     doc:
       type: git
