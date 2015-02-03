@@ -195,18 +195,18 @@ repositories:
       url: https://github.com/husky/husky_viz.git
       version: indigo-devel
     status: maintained
-  imu_transformer:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.2.0-0
   imu_filter_madgwick:
     release:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/uos-gbp/imu_tools-release.git
       version: 1.0.3-0
+  imu_transformer:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/imu_pipeline-release.git
+      version: 0.2.0-0
   jackal:
     doc:
       type: git
@@ -221,7 +221,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal-release.git
-      version: 0.5.0-0
+      version: 0.5.1-0
     source:
       type: git
       url: https://github.com/jackal/jackal.git
