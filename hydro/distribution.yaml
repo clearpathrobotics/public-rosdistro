@@ -37,15 +37,15 @@ repositories:
         release: release/hydro/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/kingfisher_controller-gbp.git
       version: 0.0.5-0
-#  kingfisher_firmware:
-#    release:
-#      packages:
-#      - kingfisher_avr
-#      - kingfisher_firmware
-#      tags:
-#        release: release/hydro/{package}/{version}
-#      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
-#      version: 0.1.0-0
+  kingfisher_firmware:
+    release:
+      packages:
+      - kingfisher_avr
+      - kingfisher_firmware
+      tags:
+        release: release/hydro/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
+      version: 0.1.0-0
   kingfisher_robot:
     release:
       packages:
