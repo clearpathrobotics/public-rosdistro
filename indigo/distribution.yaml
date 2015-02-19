@@ -236,7 +236,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/jackal_firmware-gbp.git
-      version: 0.2.1-0
+      version: 0.3.0-0
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
