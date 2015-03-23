@@ -130,18 +130,6 @@ repositories:
       url: https://github.com/husky/husky_simulator.git
       version: indigo-devel
     status: maintained
-  imu_filter_madgwick:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/uos-gbp/imu_tools-release.git
-      version: 1.0.3-0
-  imu_transformer:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/imu_pipeline-release.git
-      version: 0.2.1-0
   jackal:
     doc:
       type: git
