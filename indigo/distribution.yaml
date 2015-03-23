@@ -208,20 +208,6 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/LMS1xx-release.git
       version: 0.1.2-0
-  pointcloud_to_laserscan:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/perception_pcl-release.git
-      version: 1.2.6-0
-    status: maintained
-  robot_upstart:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/robot_upstart-release.git
-      version: 0.2.0-0
-    status: maintained
   roboteq:
     release:
       packages:
