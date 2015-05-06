@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  geometry_msgs:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/ros-gbp/common_msgs-release.git
+      version: 1.11.8-0
   frontier_exploration:
     doc:
       type: git
@@ -15,7 +21,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: https://github.com/paulbovbel/frontier_exploration-release.git
-      version: 0.2.5-0
+      version: 0.3.0-0
     source:
       type: git
       url: https://github.com/paulbovbel/frontier_exploration.git
