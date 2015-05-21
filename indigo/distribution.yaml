@@ -6,33 +6,6 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
-  geometry_msgs:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/common_msgs-release.git
-      version: 1.11.8-0
-  costmap_2d:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/ros-gbp/navigation-release.git
-      version: 1.12.3-0
-  frontier_exploration:
-    doc:
-      type: git
-      url: https://github.com/paulbovbel/frontier_exploration.git
-      version: hydro-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/paulbovbel/frontier_exploration-release.git
-      version: 0.3.0-0
-    source:
-      type: git
-      url: https://github.com/paulbovbel/frontier_exploration.git
-      version: hydro-devel
-    status: maintained
   grizzly:
     release:
       packages:
