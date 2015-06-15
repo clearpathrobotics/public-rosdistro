@@ -6,6 +6,16 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  firmware_components:
+    doc:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/firmware_components.git
+      version: master
+    source:
+      type: git
+      url: git@bitbucket.org:clearpathrobotics/firmware_components.git
+      version: master
+    status: maintained
   grizzly:
     release:
       packages:
