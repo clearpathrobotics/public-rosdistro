@@ -11,6 +11,11 @@ repositories:
       type: git
       url: git@bitbucket.org:clearpathrobotics/firmware_components.git
       version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/firmware_components-gbp.git
+      version: 0.1.0-0
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/firmware_components.git
