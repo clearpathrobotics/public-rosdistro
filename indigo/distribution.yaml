@@ -233,5 +233,20 @@ repositories:
         release: release/indigo/{package}/{version}
       url: https://github.com/clearpath-gbp/roboteq-release.git
       version: 0.1.2-0
+  vrpn:
+    doc:
+      type: git
+      url: https://github.com/vrpn/vrpn.git
+      version: master
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/vrpn-release.git
+      version: 0.7.33-3
+    source:
+      type: git
+      url: https://github.com/vrpn/vrpn.git
+      version: master
+    status: maintained      
 type: distribution
 version: 1
