@@ -217,12 +217,6 @@ repositories:
       url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
       version: indigo-devel
     status: maintained
-  lms1xx:
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/LMS1xx-release.git
-      version: 0.1.2-0
   roboteq:
     release:
       packages:
