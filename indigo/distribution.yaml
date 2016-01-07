@@ -285,6 +285,15 @@ repositories:
       url: https://github.com/ridgeback/ridgeback.git
       version: indigo-devel
     status: maintained
+  ridgeback_desktop:
+    release:
+      packages:
+      - ridgeback_desktop
+      - ridgeback_viz
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/ridgeback_desktop-release.git
+      version: 0.1.0-0
   ridgeback_firmware:
     doc:
       type: git
