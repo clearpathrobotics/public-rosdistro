@@ -329,6 +329,12 @@ repositories:
       url: https://github.com/ridgeback/ridgeback_robot.git
       version: indigo-devel
     status: maintained
+  robot_pose_ekf_gpsfix:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/robot_pose_ekf_gpsfix-gbp.git
+      version: 1.0.1-0
   roboteq:
     release:
       packages:
