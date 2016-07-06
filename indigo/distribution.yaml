@@ -110,6 +110,26 @@ repositories:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/heron_firmware-gbp.git
       version: 0.3.0-0
+  heron_rebot:
+    doc:
+      type: git
+      url: https://github.com/heron/heron_robot.git
+      version: indigo-devel
+    release:
+      packages:
+      - heron_base
+      - heron_bringup
+      - heron_nmea
+      - heron_robot
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/heron_robot-release.git
+      version: 0.1.0-0
+    source:
+      type: git
+      url: https://github.com/heron/heron_robot.git
+      version: indigo-devel
+    status: developed
   husky:
     doc:
       type: git
