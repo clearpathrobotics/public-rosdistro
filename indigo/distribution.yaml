@@ -101,6 +101,15 @@ repositories:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/heron_controller-gbp.git
       version: 0.1.0-0
+  heron_firmware:
+    release:
+      packages:
+      - heron_avr
+      - heron_firmware
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/heron_firmware-gbp.git
+      version: 0.3.0-0
   husky:
     doc:
       type: git
