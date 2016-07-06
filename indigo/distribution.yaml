@@ -95,6 +95,12 @@ repositories:
       url: https://github.com/heron/heron.git
       version: indigo-devel
     status: developed
+  heron_controller:
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: git@bitbucket.org:clearpathrobotics/heron_controller-gbp.git
+      version: 0.1.0-0
   husky:
     doc:
       type: git
