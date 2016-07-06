@@ -77,6 +77,24 @@ repositories:
       url: https://github.com/g/grizzly_robot.git
       version: indigo-devel
     status: maintained
+  heron:
+    doc:
+      type: git
+      url: https://github.com/heron/heron.git
+      version: indigo-devel
+    release:
+      packages:
+      - heron_description
+      - heron_msgs
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/heron-release.git
+      version: 0.2.0-0
+    source:
+      type: git
+      url: https://github.com/heron/heron.git
+      version: indigo-devel
+    status: developed
   husky:
     doc:
       type: git
