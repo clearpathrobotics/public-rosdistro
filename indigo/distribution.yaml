@@ -132,6 +132,10 @@ repositories:
       url: git@bitbucket.org:clearpathrobotics/heron_controller-gbp.git
       version: 0.1.0-0
   heron_firmware:
+    doc:
+      type: git
+      url: https://bitbucket.org/clearpathrobotics/heron_firmware
+      version: indigo-devel
     release:
       packages:
       - heron_avr
@@ -139,7 +143,12 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/heron_firmware-gbp.git
-      version: 0.3.0-0
+      version: 0.3.1-0
+    source:
+      type: git
+      url: https://bitbucket.org/clearpathrobotics/heron_firmware
+      version: indigo-devel
+    status: maintained
   heron_robot:
     doc:
       type: git
