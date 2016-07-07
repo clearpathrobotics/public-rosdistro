@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - trusty
 repositories:
+  enu:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/enu.git
+      version: hydro
+    release:
+      tags:
+        release: release/indigo/{package}/{version}
+      url: https://github.com/clearpath-gbp/enu-release.git
+      version: 1.2.2-0
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/enu.git
+      version: hydro
+    status: maintained
   firmware_components:
     doc:
       type: git
