@@ -9,7 +9,7 @@ distributions:
     source_builds: [hydro/source-build.yaml]
   indigo:
     distribution: indigo/distribution.yaml
-    distribution_cache: http://packages/rosdistro/public/indigo-cache.yaml.gz
+    distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/indigo-cache.yaml.gz
     doc_builds: [indigo/doc-build.yaml]
     release_builds: [indigo/release-build.yaml]
     source_builds: [indigo/source-build.yaml]
