@@ -39,16 +39,16 @@ repositories:
   firmware_components:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/firmware_components.git
+      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
       version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/firmware_components-gbp.git
-      version: 0.4.3-0
+      url: git@gitlab.clearpathrobotics.com:gbp/firmware_components-gbp.git
+      version: 0.6.2-0
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/firmware_components.git
+      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
       version: master
     status: maintained
   grizzly:
