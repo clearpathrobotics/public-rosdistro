@@ -396,7 +396,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware-gbp.git
-      version: 0.1.1-2
+      version: 0.1.2-0
     source:
       type: git
       url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware.git
