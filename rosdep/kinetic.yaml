@@ -1,0 +1,4 @@
+jackal_firmware:
+  ubuntu: ros-kinetic-jackal-firmware
+ridgeback_firmware:
+  ubuntu: ros-kinetic-ridgeback-firmware

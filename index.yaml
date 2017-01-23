@@ -13,5 +13,11 @@ distributions:
     doc_builds: [indigo/doc-build.yaml]
     release_builds: [indigo/release-build.yaml]
     source_builds: [indigo/source-build.yaml]
+  kinetic:
+    distribution: kinetic/distribution.yaml
+    distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/kinetic-cache.yaml.gz
+    doc_builds: [kinetic/doc-build.yaml]
+    release_builds: [kinetic/release-build.yaml]
+    source_builds: [kinetic/source-build.yaml]
 type: index
 version: 2

@@ -6,3 +6,5 @@ kingfisher_controller:
   ubuntu: ros-indigo-kingfisher-controller
 kingfisher_firmware:
   ubuntu: ros-indigo-kingfisher-firmware
+ridgeback_firmware:
+  ubuntu: ros-indigo-ridgeback-firmware
