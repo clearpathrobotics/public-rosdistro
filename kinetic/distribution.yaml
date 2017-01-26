@@ -6,36 +6,6 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
-  firmware_components:
-    doc:
-      type: git
-      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
-      version: master
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: git@gitlab.clearpathrobotics.com:gbp/firmware_components-gbp.git
-      version: 0.6.2-0
-    source:
-      type: git
-      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
-      version: master
-    status: maintained
-  jackal_firmware:
-    doc:
-      type: git
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware-gbp.git
-      version: 0.3.7-0
-    source:
-      type: git
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
-      version: indigo-devel
-    status: maintained
   puma_motor_driver:
     doc:
       type: git
@@ -53,51 +23,6 @@ repositories:
       type: git
       url: https://github.com/clearpathrobotics/puma_motor_driver.git
       version: master
-    status: maintained
-  ridgeback_firmware:
-    doc:
-      type: git
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware-gbp.git
-      version: 0.1.1-2
-    source:
-      type: git
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware.git
-      version: indigo-devel
-    status: maintained
-  vrpn:
-    doc:
-      type: git
-      url: https://github.com/vrpn/vrpn.git
-      version: master
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/vrpn-release.git
-      version: 0.7.33-3
-    source:
-      type: git
-      url: https://github.com/vrpn/vrpn.git
-      version: master
-    status: maintained
-  vrpn_client_ros:
-    doc:
-      type: git
-      url: https://github.com/clearpathrobotics/vrpn_client_ros.git
-      version: indigo-devel
-    release:
-      tags:
-        release: release/indigo/{package}/{version}
-      url: https://github.com/clearpath-gbp/vrpn_client_ros-release.git
-      version: 0.0.2-0
-    source:
-      type: git
-      url: https://github.com/clearpathrobotics/vrpn_client_ros.git
-      version: indigo-devel
     status: maintained
 type: distribution
 version: 1
