@@ -20,7 +20,7 @@ targets:
     - http://localhost/public.key
     - http://packages.ros.org/ros.key
   ubuntu:
-    trusty:
+    xenial:
       amd64:
 type: doc-build
 version: 1

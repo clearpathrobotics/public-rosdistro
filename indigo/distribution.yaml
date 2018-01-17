@@ -39,16 +39,16 @@ repositories:
   firmware_components:
     doc:
       type: git
-      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
+      url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
       version: master
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@gitlab.clearpathrobotics.com:gbp/firmware_components-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/firmware_components-gbp.git
       version: 0.6.2-0
     source:
       type: git
-      url: git@gitlab.clearpathrobotics.com:otto/firmware_components.git
+      url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
       version: master
     status: maintained
   grizzly:
@@ -74,7 +74,7 @@ repositories:
   grizzly_firmware:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/grizzly_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/grizzly_firmware.git
       version: indigo-devel
     release:
       packages:
@@ -82,11 +82,11 @@ repositories:
       - grizzly_firmware
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/grizzly_firmware-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/grizzly_firmware-gbp.git
       version: 0.2.0-0
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/grizzly_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/grizzly_firmware.git
       version: indigo-devel
   grizzly_robot:
     doc:
@@ -129,12 +129,12 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/heron_controller-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/heron_controller-gbp.git
       version: 0.1.0-0
   heron_firmware:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/heron_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/heron_firmware.git
       version: indigo-devel
     release:
       packages:
@@ -142,11 +142,11 @@ repositories:
       - heron_firmware
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/heron_firmware-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/heron_firmware-gbp.git
       version: 0.3.1-0
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/heron_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/heron_firmware.git
       version: indigo-devel
     status: maintained
   heron_robot:
@@ -269,16 +269,16 @@ repositories:
   jackal_firmware:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
       version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/jackal_firmware-gbp.git
       version: 0.3.7-0
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/jackal_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
       version: indigo-devel
     status: maintained
   jackal_robot:
@@ -303,7 +303,7 @@ repositories:
   kingfisher_firmware:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/kingfisher_firmware.git
       version: indigo-devel
     release:
       packages:
@@ -311,11 +311,11 @@ repositories:
       - kingfisher_firmware
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/kingfisher_firmware-gbp.git
       version: 0.2.2-0
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/kingfisher_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/kingfisher_firmware.git
       version: indigo-devel
     status: maintained
   multimaster_fkie:
@@ -390,16 +390,16 @@ repositories:
   ridgeback_firmware:
     doc:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/ridgeback_firmware.git
       version: indigo-devel
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/ridgeback_firmware-gbp.git
       version: 0.1.2-2
     source:
       type: git
-      url: git@bitbucket.org:clearpathrobotics/ridgeback_firmware.git
+      url: http://gitlab.clearpathrobotics.com/research/ridgeback_firmware.git
       version: indigo-devel
     status: maintained
   ridgeback_robot:
@@ -425,7 +425,7 @@ repositories:
     release:
       tags:
         release: release/indigo/{package}/{version}
-      url: git@bitbucket.org:clearpathrobotics/robot_pose_ekf_gpsfix-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/robot_pose_ekf_gpsfix-gbp.git
       version: 1.0.1-0
   roboteq:
     release:

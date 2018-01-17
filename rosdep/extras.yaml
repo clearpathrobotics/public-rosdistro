@@ -1,2 +1,4 @@
+gdb-arm-none-eabi:
+  ubuntu: gdb-arm-none-eabi
 stm32plus-small-f4-25000000:
   ubuntu: stm32plus-small-f4-25000000
