@@ -1,3 +1,5 @@
+firmware_components:
+  ubuntu: ros-indigo-firmware-components
 grizzly_firmware:
   ubuntu: ros-indigo-grizzly-firmware
 jackal_firmware:
