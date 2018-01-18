@@ -2,6 +2,8 @@ firmware_components:
   ubuntu: ros-indigo-firmware-components
 grizzly_firmware:
   ubuntu: ros-indigo-grizzly-firmware
+heron_firmware:
+  ubuntu: ros-indigo-heron-firmware
 jackal_firmware:
   ubuntu: ros-indigo-jackal-firmware
 kingfisher_controller:
