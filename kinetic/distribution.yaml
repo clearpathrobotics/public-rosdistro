@@ -6,6 +6,24 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
+  heron:
+    doc:
+      type: git
+      url: https://github.com/heron/heron.git
+      version: kinetic-devel
+    release:
+      packages:
+      - heron_description
+      - heron_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/heron-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/heron/heron.git
+      version: kinetic-devel
+    status: maintained
   husky:
     doc:
       type: git
