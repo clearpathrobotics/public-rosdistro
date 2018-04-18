@@ -45,7 +45,7 @@ repositories:
       tags:
         release: release/indigo/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/firmware_components-gbp.git
-      version: 0.6.2-0
+      version: 2.9.2-0
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
