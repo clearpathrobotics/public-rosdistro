@@ -1,3 +1,9 @@
+canfestival-devel:
+  ubuntu: canfestival-devel
+canfestival-socket:
+  ubuntu: canfestival-socket
+canfestival-objdictedit:
+  ubuntu: canfestival-objdictedit
 gdb-arm-none-eabi:
   ubuntu: gdb-arm-none-eabi
 stm32plus-small-f4-25000000:
