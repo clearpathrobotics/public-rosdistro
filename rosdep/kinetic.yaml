@@ -4,3 +4,9 @@ jackal_firmware:
   ubuntu: ros-kinetic-jackal-firmware
 ridgeback_firmware:
   ubuntu: ros-kinetic-ridgeback-firmware
+sevcon_ros:
+  ubuntu: ros-kinetic-sevcon-ros
+warthog_firmware:
+  ubuntu: ros-kinetic-warthog-firmware
+warthog_robot:
+  ubuntu: ros-kinetic-warthog-robot
