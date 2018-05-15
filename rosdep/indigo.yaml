@@ -14,3 +14,9 @@ kingfisher_firmware:
   ubuntu: ros-indigo-kingfisher-firmware
 ridgeback_firmware:
   ubuntu: ros-indigo-ridgeback-firmware
+sevcon_ros:
+  ubuntu: ros-indigo-sevcon-ros
+warthog_firmware:
+  ubuntu: ros-indigo-warthog-firmware
+warthog_robot:
+  ubuntu: ros-indigo-warthog-robot
