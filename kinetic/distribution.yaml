@@ -228,7 +228,7 @@ repositories:
     doc:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/warthog_robot.git
-      version: indigo-devel
+      version: kinetic-devel
     release:
       packages:
       - warthog_base
@@ -241,7 +241,7 @@ repositories:
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/warthog_robot.git
-      version: indigo-devel
+      version: kinetic-devel
     status: maintained
 type: distribution
 version: 1
