@@ -271,7 +271,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/warthog_robot-gbp.git
-      version: 0.1.1-0
+      version: 0.1.2-0
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/warthog_robot.git
