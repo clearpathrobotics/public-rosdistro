@@ -10,3 +10,5 @@ stm32plus-small-f4-25000000:
   ubuntu: stm32plus-small-f4-25000000
 openocd:
   ubuntu: openocd
+python-cffi:
+  ubuntu: python-cffi
