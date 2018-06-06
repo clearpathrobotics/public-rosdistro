@@ -71,6 +71,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/grizzly_firmware.git
       version: kinetic-devel
     status: maintained
+  grizzly_motor_driver:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly_motor_driver.git
+      version: master
+    release:
+      packages:
+      - grizzly_motor_driver
+      - grizzly_motor_msgs
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly_motor_driver-release.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly_motor_driver.git
+      version: master
+    status: maintained
   heron:
     doc:
       type: git
