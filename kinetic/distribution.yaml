@@ -89,6 +89,25 @@ repositories:
       url: https://github.com/g/grizzly_motor_driver.git
       version: master
     status: maintained
+  grizzly_robot:
+    doc:
+      type: git
+      url: https://github.com/g/grizzly_robot.git
+      version: kinetic-devel
+    release:
+      packages:
+      - grizzly_base
+      - grizzly_bringup
+      - grizzly_robot
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/grizzly_robot-release.git
+      version: 0.3.0-0
+    source:
+      type: git
+      url: https://github.com/g/grizzly_robot.git
+      version: kinetic-devel
+    status: maintained
   heron:
     doc:
       type: git
