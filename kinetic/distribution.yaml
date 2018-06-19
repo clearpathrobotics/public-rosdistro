@@ -65,7 +65,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/grizzly_firmware-gbp.git
-      version: 0.3.0-0
+      version: 0.3.1-0
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/grizzly_firmware.git
