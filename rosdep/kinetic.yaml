@@ -1,13 +1,37 @@
+boxer_control:
+  ubuntu: ros-kinetic-boxer-control
+boxer_description:
+  ubuntu: ros-kinetic-boxer-description
+boxer_firmware:
+  ubuntu: ros-kinetic-boxer-firmware
+boxer_msgs:
+  ubuntu: ros-kinetic-boxer-msgs
+cpr_common_msgs:
+  ubuntu: ros-kinetic-cpr-common-msgs
+cpr_common_srvs:
+  ubuntu: ros-kinetic-cpr-common-srvs
 firmware_components:
   ubuntu: ros-kinetic-firmware-components
+gpio_msgs:
+  ubuntu: ros-kinetic-gpio-msgs
 grizzly_firmware:
   ubuntu: ros-kinetic-grizzly-firmware
 jackal_firmware:
   ubuntu: ros-kinetic-jackal-firmware
+led_array_msgs:
+  ubuntu: ros-kinetic-led-array-msgs
+linux_gpio_driver:
+  ubuntu: linux-gpio-driver
 ridgeback_firmware:
   ubuntu: ros-kinetic-ridgeback-firmware
+robot_state_aggregator_client:
+  ubuntu: ros-kinetic-robot-state-aggregator-client
+robot_state_aggregator_types:
+  ubuntu: ros-kinetic-robot-state-aggregator-types
 sevcon_ros:
   ubuntu: ros-kinetic-sevcon-ros
+visual_indication:
+  ubuntu: ros-kinetic-visual-indication
 warthog_firmware:
   ubuntu: ros-kinetic-warthog-firmware
 warthog_robot:
