@@ -279,6 +279,16 @@ repositories:
       url: https://github.com/ridgeback/ridgeback_robot.git
       version: kinetic-devel
     status: maintained
+  robot_state_aggregator:
+    release:
+      packages:
+      - robot_state_aggregator
+      - robot_state_aggregator_client
+      - robot_state_aggregator_types
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/robot_state_aggregator.git
+      version: 0.0.1-0
   sevcon_ros:
     doc:
       type: git
