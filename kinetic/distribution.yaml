@@ -17,11 +17,6 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer.git
-  boxer_firmware:
-    release:
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_firmware.git
   boxer_desktop:
     release:
       packages:
@@ -30,6 +25,11 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_desktop.git
+  boxer_firmware:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_firmware.git
   boxer_robot:
     release:
       packages:
