@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
+  boxer:
+    release:
+      packages:
+      - boxer_control
+      - boxer_description
+      - boxer_msgs
+      - boxer_navigation
+      - boxer_visual
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.clearpathrobotics.com:boxer_gbp/boxer.git
+      version: 0.0.1-0
   canfestival_ros:
     doc:
       type: git
