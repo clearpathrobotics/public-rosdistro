@@ -22,6 +22,14 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_firmware.git
+  boxer_desktop:
+    release:
+      packages:
+      - boxer_desktop
+      - boxer_viz
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_desktop.git
       version: 0.0.1-0
   canfestival_ros:
     doc:
