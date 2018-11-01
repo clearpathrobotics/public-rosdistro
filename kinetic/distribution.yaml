@@ -6,6 +6,18 @@ release_platforms:
   ubuntu:
   - xenial
 repositories:
+  boxer_simulator:
+    release:
+      packages:
+      - boxer_gazebo
+      - boxer_gazebo_plugins
+      - boxer_simulator
+      - cpr_plugin_tools
+      - generic_gpio_plugin
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_simulator.git
+      version: 0.0.1-0
   canfestival_ros:
     doc:
       type: git
