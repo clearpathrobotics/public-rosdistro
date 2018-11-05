@@ -7,6 +7,10 @@ release_platforms:
   - xenial
 repositories:
   boxer:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer.git
+      version: master
     release:
       packages:
       - boxer_control
@@ -17,6 +21,12 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer.git
+      version: master
+    status: maintained
   boxer_desktop:
     release:
       packages:
