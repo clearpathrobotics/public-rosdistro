@@ -394,6 +394,10 @@ repositories:
       version: kinetic-devel
     status: maintained
   robot_state_aggregator:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/robot_state_aggregator.git
+      version: master
     release:
       packages:
       - robot_state_aggregator
@@ -403,6 +407,11 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/robot_state_aggregator.git
       version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/robot_state_aggregator.git
+      version: master
+    status: maintained
   sevcon_ros:
     doc:
       type: git
