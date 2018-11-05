@@ -21,7 +21,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer.git
-      version: 0.0.1-0
+      version: 0.0.2-0
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/Boxer/boxer.git
