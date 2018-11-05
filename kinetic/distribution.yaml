@@ -341,6 +341,21 @@ repositories:
       url: https://github.com/jackal/jackal_robot.git
       version: indigo-devel
     status: maintained
+  linux_gpio_driver:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/linux_gpio_driver.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/linux_gpio_driver.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/linux_gpio_driver.git
+      version: master
+    status: maintained
   puma_motor_driver:
     doc:
       type: git
