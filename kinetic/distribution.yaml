@@ -80,6 +80,10 @@ repositories:
       version: master
     status: maintained
   boxer_simulator:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer_simulator.git
+      version: master
     release:
       packages:
       - boxer_gazebo
@@ -91,6 +95,11 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_simulator.git
       version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer_simulator.git
+      version: master
+    status: maintained
   canfestival_ros:
     doc:
       type: git
