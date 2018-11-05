@@ -21,7 +21,7 @@ jackal_firmware:
 led_array_msgs:
   ubuntu: ros-kinetic-led-array-msgs
 linux_gpio_driver:
-  ubuntu: linux-gpio-driver
+  ubuntu: ros-kinetic-linux-gpio-driver
 ridgeback_firmware:
   ubuntu: ros-kinetic-ridgeback-firmware
 robot_state_aggregator_client:
