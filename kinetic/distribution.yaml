@@ -46,10 +46,20 @@ repositories:
       version: master
     status: maintained
   boxer_firmware:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer_firmware.git
+      version: master
     release:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/boxer_firmware.git
+      version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/boxer_firmware.git
+      version: master
+    status: maintained
   boxer_robot:
     release:
       packages:
