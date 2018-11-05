@@ -107,6 +107,10 @@ repositories:
       version: devel
     status: maintained
   cpr_common_msgs:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/cpr_common_msgs.git
+      version: master
     release:
       packages:
       - cpr_common_msgs
@@ -117,6 +121,11 @@ repositories:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/boxer_gbp/cpr_common_msgs.git
       version: 0.0.1-0
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/cpr_common_msgs.git
+      version: master
+    status: maintained
   firmware_components:
     doc:
       type: git
