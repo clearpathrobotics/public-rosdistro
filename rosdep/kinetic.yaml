@@ -24,6 +24,8 @@ linux_gpio_driver:
   ubuntu: ros-kinetic-linux-gpio-driver
 ridgeback_firmware:
   ubuntu: ros-kinetic-ridgeback-firmware
+robot_state_aggregator:
+  ubuntu: ros-kinetic-robot-state-aggregator
 robot_state_aggregator_client:
   ubuntu: ros-kinetic-robot-state-aggregator-client
 robot_state_aggregator_types:
