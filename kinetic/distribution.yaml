@@ -356,6 +356,12 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/Boxer/linux_gpio_driver.git
       version: master
     status: maintained
+  microhard_snmp:
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: git@gitlab.clearpathrobotics.com:gbp/microhard_snmp-gbp.git
+      version: 0.0.1-0
   puma_motor_driver:
     doc:
       type: git
