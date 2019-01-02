@@ -22,6 +22,8 @@ led_array_msgs:
   ubuntu: ros-kinetic-led-array-msgs
 linux_gpio_driver:
   ubuntu: ros-kinetic-linux-gpio-driver
+microhard_snmp:
+  ubuntu: ros-kinetic-microhard-snmp
 ridgeback_firmware:
   ubuntu: ros-kinetic-ridgeback-firmware
 robot_state_aggregator:
