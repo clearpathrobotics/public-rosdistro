@@ -150,25 +150,6 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
       version: master
     status: maintained
-  flir_ptu:
-    doc:
-      type: git
-      url: https://github.com/ros-drivers/flir_ptu.git
-      version: master
-    release:
-      packages:
-      - flir_ptu_description
-      - flir_ptu_driver
-      - flir_ptu_viz
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/ros-drivers-gbp/flir_ptu-release.git
-      version: 0.2.0-0
-    source:
-      type: git
-      url: https://github.com/ros-drivers/flir_ptu.git
-      version: master
-    status: maintained
   grizzly:
     doc:
       type: git
