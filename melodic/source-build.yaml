@@ -1,0 +1,25 @@
+%YAML 1.1
+---
+jenkins_url: http://localhost:8010
+notifications:
+  committers: true
+  emails:
+  - release@buildbot-ros.github.com
+  maintainers: true
+targets:
+  _config:
+    apt_mirrors:
+    - http://localhost/building/ubuntu DISTRO main
+    - http://packages.ros.org/ros/ubuntu DISTRO main
+    - http://ppa.launchpad.net/clearpath-robotics/stm32/ubuntu DISTRO main
+    - http://archive.ubuntu.com/ubuntu DISTRO main universe
+    - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
+    apt_keys:
+    - http://localhost/public.key
+    - http://packages.ros.org/ros.key
+    - http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0A643A170CE4E4A9F45190F2764B63CDDB70AA71
+  ubuntu:
+    xenial:
+      amd64:
+type: source-build
+version: 1
