@@ -10,5 +10,8 @@ distributions:
   kinetic:
     distribution: [kinetic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/kinetic-cache.yaml.gz
+  melodic:
+    distribution: [melodic/distribution.yaml]
+    distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/melodic-cache.yaml.gz
 type: index
 version: 3
