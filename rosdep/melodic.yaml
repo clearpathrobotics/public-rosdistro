@@ -1,1 +1,42 @@
-
+boxer_control:
+  ubuntu: ros-melodic-boxer-control
+boxer_description:
+  ubuntu: ros-melodic-boxer-description
+boxer_firmware:
+  ubuntu: ros-melodic-boxer-firmware
+boxer_msgs:
+  ubuntu: ros-melodic-boxer-msgs
+cpr_common_msgs:
+  ubuntu: ros-melodic-cpr-common-msgs
+cpr_common_srvs:
+  ubuntu: ros-melodic-cpr-common-srvs
+firmware_components:
+  ubuntu: ros-melodic-firmware-components
+gpio_msgs:
+  ubuntu: ros-melodic-gpio-msgs
+grizzly_firmware:
+  ubuntu: ros-melodic-grizzly-firmware
+jackal_firmware:
+  ubuntu: ros-melodic-jackal-firmware
+led_array_msgs:
+  ubuntu: ros-melodic-led-array-msgs
+linux_gpio_driver:
+  ubuntu: ros-melodic-linux-gpio-driver
+microhard_snmp:
+  ubuntu: ros-melodic-microhard-snmp
+ridgeback_firmware:
+  ubuntu: ros-melodic-ridgeback-firmware
+robot_state_aggregator:
+  ubuntu: ros-melodic-robot-state-aggregator
+robot_state_aggregator_client:
+  ubuntu: ros-melodic-robot-state-aggregator-client
+robot_state_aggregator_types:
+  ubuntu: ros-melodic-robot-state-aggregator-types
+sevcon_ros:
+  ubuntu: ros-melodic-sevcon-ros
+visual_indication:
+  ubuntu: ros-melodic-visual-indication
+warthog_firmware:
+  ubuntu: ros-melodic-warthog-firmware
+warthog_robot:
+  ubuntu: ros-melodic-warthog-robot
