@@ -39,5 +39,20 @@ repositories:
       url: https://github.com/husky/husky.git
       version: melodic-devel
     status: maintained
+  jackal_firmware:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
+      version: indigo-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/jackal_firmware-gbp.git
+      version: 0.3.9-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
+      version: indigo-devel
+    status: maintained
 type: distribution
 version: 1
