@@ -6,8 +6,11 @@ canfestival-objdictedit:
   ubuntu: canfestival-objdictedit
 gdb-arm-none-eabi:
   ubuntu:
-    '*': gdb-arm-none-eabi
+    trusty: gdb-arm-none-eabi
+    xenial: gdb-arm-none-eabi
     bionic: gdb-multiarch
+  debian:
+    stretch: gdb-arm-none-eabi
 gdb-multiarch:
   ubuntu: gdb-multiarch
 openocd:
