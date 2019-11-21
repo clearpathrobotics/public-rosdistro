@@ -5,7 +5,11 @@ canfestival-socket:
 canfestival-objdictedit:
   ubuntu: canfestival-objdictedit
 gdb-arm-none-eabi:
-  ubuntu: gdb-arm-none-eabi
+  ubuntu:
+    '*': gdb-arm-none-eabi
+    bionic: gdb-multiarch
+gdb-multiarch:
+  ubuntu: gdb-multiarch
 openocd:
   ubuntu: openocd
 python-cffi:
