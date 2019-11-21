@@ -7,11 +7,20 @@ release_platforms:
   - bionic
 repositories:
   firmware_components:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
+      version: master
     release:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/firmware_components-gbp.git
-      version: 2.9.4-1
+      version: 2.9.5-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
+      version: master
+    status: maintained
   husky:
     doc:
       type: git
