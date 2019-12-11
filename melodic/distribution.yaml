@@ -134,6 +134,24 @@ repositories:
       url: https://github.com/ridgeback/ridgeback_robot.git
       version: kinetic-devel
     status: maintained
+  valence_bms:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: kinetic-devel
+    release:
+      packages:
+      - valence_bms_driver
+      - valence_bms_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/valence_bms-gbp.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: kinetic-devel
+    status: maintained
   warthog_firmware:
     doc:
       type: git
