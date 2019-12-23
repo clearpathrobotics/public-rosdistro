@@ -425,7 +425,7 @@ repositories:
       url: https://github.com/moose-cpr/moose.git
       version: master
     status: maintained
-  moose-simulator:
+  moose_simulator:
     doc:
       type: git
       url: https://github.com/moose-cpr/moose_simulator.git
