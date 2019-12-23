@@ -425,24 +425,6 @@ repositories:
       url: https://github.com/moose-cpr/moose.git
       version: master
     status: maintained
-  moose_simulator:
-    doc:
-      type: git
-      url: https://github.com/moose-cpr/moose_simulator.git
-      version: master
-    release:
-      packages:
-      - moose_gazebo
-      - moose_simulator
-      tags:
-        release: release/kinetic/{package}/{version}
-      url: https://github.com/clearpath-gbp/moose_simulator-release.git
-      version: 0.1.0-1
-    source:
-      type: git
-      url: https://github.com/moose-cpr/moose_simulator.git
-      version: master
-    status: maintained
   moose_desktop:
     doc:
       type: git
@@ -511,6 +493,24 @@ repositories:
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/moose_robot.git
+      version: master
+    status: maintained
+  moose_simulator:
+    doc:
+      type: git
+      url: https://github.com/moose-cpr/moose_simulator.git
+      version: master
+    release:
+      packages:
+      - moose_gazebo
+      - moose_simulator
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/moose_simulator-release.git
+      version: 0.1.0-2
+    source:
+      type: git
+      url: https://github.com/moose-cpr/moose_simulator.git
       version: master
     status: maintained
   puma_motor_driver:
