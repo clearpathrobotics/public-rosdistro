@@ -107,7 +107,7 @@ repositories:
     release:
       tags:
         release: release/melodic/{package}/{version}
-      url: http://gitlab.clearpathrobotics.com/gbp/jackal_firmware-gbp.git
+      url: git@gitlab.clearpathrobotics.com:gbp/jackal_firmware-gbp.git
       version: 0.4.1-1
     source:
       type: git
