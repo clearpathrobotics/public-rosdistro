@@ -195,7 +195,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/ridgeback_firmware-gbp.git
-      version: 0.1.4-1
+      version: 0.2.0-1
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/ridgeback_firmware.git
