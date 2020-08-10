@@ -21,6 +21,26 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/software/canfestival_ros.git
       version: devel
     status: maintained
+  dingo:
+    doc:
+      type: git
+      url: https://github.com/dingo-cpr/dingo.git
+      version: master
+    release:
+      packages:
+      - dingo_control
+      - dingo_description
+      - dingo_msgs
+      - dingo_navigation
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/dingo-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/dingo-cpr/dingo.git
+      version: master
+    status: developed
   firmware_components:
     doc:
       type: git
