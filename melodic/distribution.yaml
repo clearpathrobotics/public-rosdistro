@@ -204,6 +204,24 @@ repositories:
       url: https://github.com/jackal/jackal_robot.git
       version: kinetic-devel
     status: maintained
+  moose_motor_driver:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/moose_motor_driver.git
+      version: master
+    release:
+      packages:
+      - moose_motor_driver
+      - moose_motor_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/moose_motor_driver-gbp.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/moose_motor_driver.git
+      version: master
+    status: maintained
   puma_motor_driver:
     doc:
       type: git
