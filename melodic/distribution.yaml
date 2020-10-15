@@ -417,6 +417,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
       version: kinetic-devel
     status: maintained
+  vanguard_bms:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/vanguard_bms.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/vanguard_bms-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/vanguard_bms.git
+      version: main
+    status: maintained
   warthog:
     doc:
       type: git
