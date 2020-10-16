@@ -288,7 +288,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/moose_robot-gbp.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/moose_robot.git
