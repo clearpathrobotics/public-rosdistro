@@ -21,6 +21,23 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/software/canfestival_ros.git
       version: devel
     status: maintained
+  cpr_gps_common:
+    release:
+      packages:
+      - autonomy_msgs
+      - autonomy_msgs_utils
+      - cpr_diagnostics
+      - cpr_estop_monitor
+      - cpr_gps_common
+      - cpr_gps_navigation_msgs
+      - cpr_pointcloud_filter
+      - cpr_std_srvs
+      - nav_core_cpr
+      - nav_utils
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_common-gbp.git
+      version: 0.1.6-1
   dingo:
     doc:
       type: git
