@@ -109,6 +109,17 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/firmware/firmware_components.git
       version: master
     status: maintained
+  gps_mpc_navigation:
+    release:
+      packages:
+      - cpr_local_planner
+      - cpr_pathtracker
+      - gps_mpc_navigation
+      - grid_library
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/gps_mpc_navigation-gbp.git
+      version: 0.1.6-1
   heron:
     doc:
       type: git
