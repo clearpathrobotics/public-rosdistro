@@ -303,6 +303,21 @@ repositories:
       url: https://github.com/jackal/jackal_robot.git
       version: kinetic-devel
     status: maintained
+  launch_delay:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/launch_delay.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/launch_delay-gbp.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/launch_delay.git
+      version: main
+    status: maintained
   moose:
     doc:
       type: git
