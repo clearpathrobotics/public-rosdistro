@@ -18,6 +18,8 @@ grizzly_firmware:
   ubuntu: ros-melodic-grizzly-firmware
 jackal_firmware:
   ubuntu: ros-melodic-jackal-firmware
+launch_delay:
+  ubuntu: ros-melodic-launch-delay
 led_array_msgs:
   ubuntu: ros-melodic-led-array-msgs
 linux_gpio_driver:

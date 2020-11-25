@@ -18,6 +18,8 @@ grizzly_firmware:
   ubuntu: ros-kinetic-grizzly-firmware
 jackal_firmware:
   ubuntu: ros-kinetic-jackal-firmware
+launch_delay:
+  ubuntu: ros-kinetic-launch-delay
 led_array_msgs:
   ubuntu: ros-kinetic-led-array-msgs
 linux_gpio_driver:
