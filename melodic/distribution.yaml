@@ -171,7 +171,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/gps_mpc_navigation-gbp.git
-      version: 0.1.6-1
+      version: 0.1.7-1
   heron:
     doc:
       type: git
