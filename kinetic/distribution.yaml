@@ -151,7 +151,7 @@ repositories:
       tags:
         release: release/kinetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_common-gbp.git
-      version: 0.1.6-1
+      version: 0.1.7-1
   cpr_gps_navigation:
     release:
       packages:
