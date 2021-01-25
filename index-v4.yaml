@@ -23,5 +23,10 @@ distributions:
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
+  noetic:
+    distribution: [noetic/distribution.yaml]
+    distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/noetic-cache.yaml.gz
+    distribution_status: active
+    distribution_type: ros1
 type: index
 version: 4
