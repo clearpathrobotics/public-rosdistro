@@ -18,7 +18,7 @@ targets:
     - http://packages.ros.org/ros.key
     - http://keyserver.ubuntu.com/pks/lookup?op=get&search=0x0A643A170CE4E4A9F45190F2764B63CDDB70AA71
   ubuntu:
-    xenial:
+    bionic:
       amd64:
 type: release-build
 version: 1
