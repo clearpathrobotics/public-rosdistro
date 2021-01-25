@@ -12,5 +12,11 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/serial-release.git
       version: 1.2.1-1
+  um7:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/um7-release.git
+      version: 0.0.6-1
 type: distribution
 version: 1
