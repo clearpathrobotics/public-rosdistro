@@ -13,5 +13,8 @@ distributions:
   melodic:
     distribution: [melodic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/melodic-cache.yaml.gz
+  noetic:
+    distribution: [noetic/distribution.yaml]
+    distribution_cache: http://prod-vm-build-pub-repo-01/rosdistro_cache/noetic-cache.yaml.gz
 type: index
 version: 3
