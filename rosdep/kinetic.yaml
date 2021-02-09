@@ -36,6 +36,8 @@ robot_state_aggregator_client:
   ubuntu: ros-kinetic-robot-state-aggregator-client
 robot_state_aggregator_types:
   ubuntu: ros-kinetic-robot-state-aggregator-types
+ros_mscl:
+  ubuntu: ros-kinetic-ros-mscl
 sevcon_ros:
   ubuntu: ros-kinetic-sevcon-ros
 visual_indication:

@@ -36,6 +36,8 @@ robot_state_aggregator_client:
   ubuntu: ros-melodic-robot-state-aggregator-client
 robot_state_aggregator_types:
   ubuntu: ros-melodic-robot-state-aggregator-types
+ros_mscl:
+  ubuntu: ros-melodic-ros-mscl
 sevcon_ros:
   ubuntu: ros-melodic-sevcon-ros
 visual_indication:
