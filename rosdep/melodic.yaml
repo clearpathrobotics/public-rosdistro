@@ -24,6 +24,8 @@ launch_delay:
   ubuntu: ros-melodic-launch-delay
 led_array_msgs:
   ubuntu: ros-melodic-led-array-msgs
+libmscl:
+  ubuntu: c++-mscl
 linux_gpio_driver:
   ubuntu: ros-melodic-linux-gpio-driver
 microhard_snmp:
@@ -38,6 +40,8 @@ robot_state_aggregator_types:
   ubuntu: ros-melodic-robot-state-aggregator-types
 rosserial_leonardo_cmake:
   ubuntu: ros-melodic-rosserial-leonardo-cmake
+ros_mscl:
+  ubuntu: ros-melodic-ros-mscl
 sevcon_ros:
   ubuntu: ros-melodic-sevcon-ros
 visual_indication:
