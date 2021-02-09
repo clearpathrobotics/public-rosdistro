@@ -22,6 +22,8 @@ launch_delay:
   ubuntu: ros-kinetic-launch-delay
 led_array_msgs:
   ubuntu: ros-kinetic-led-array-msgs
+libmscl:
+  ubuntu: c++-mscl
 linux_gpio_driver:
   ubuntu: ros-kinetic-linux-gpio-driver
 microhard_snmp:

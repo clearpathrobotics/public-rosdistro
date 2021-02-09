@@ -22,6 +22,8 @@ launch_delay:
   ubuntu: ros-melodic-launch-delay
 led_array_msgs:
   ubuntu: ros-melodic-led-array-msgs
+libmscl:
+  ubuntu: c++-mscl
 linux_gpio_driver:
   ubuntu: ros-melodic-linux-gpio-driver
 microhard_snmp:
