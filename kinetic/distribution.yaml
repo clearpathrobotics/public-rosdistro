@@ -637,6 +637,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/Boxer/robot_state_aggregator.git
       version: master
     status: maintained
+  ros_mscl:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    release:
+      tags:
+        release: release/kinetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ros_mscl-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    status: maintained
   sevcon_ros:
     doc:
       type: git
