@@ -193,6 +193,24 @@ repositories:
       url: https://github.com/heron/heron.git
       version: kinetic-devel
     status: maintained
+  heron_firmware:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/heron_firmware.git
+      version: kinetic-devel
+    release:
+      packages:
+      - heron_avr
+      - heron_firmware
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/heron_firmware-gbp.git
+      version: 0.3.2-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/heron_firmware.git
+      version: kinetic-devel
+    status: maintained
   husky:
     doc:
       type: git
