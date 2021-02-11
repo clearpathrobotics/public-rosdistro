@@ -16,6 +16,8 @@ gpio_msgs:
   ubuntu: ros-kinetic-gpio-msgs
 grizzly_firmware:
   ubuntu: ros-kinetic-grizzly-firmware
+heron_firmware:
+  ubuntu: ros-kinetic-heron-firmware
 jackal_firmware:
   ubuntu: ros-kinetic-jackal-firmware
 launch_delay:
@@ -36,6 +38,8 @@ robot_state_aggregator_client:
   ubuntu: ros-kinetic-robot-state-aggregator-client
 robot_state_aggregator_types:
   ubuntu: ros-kinetic-robot-state-aggregator-types
+rosserial_leonardo_cmake:
+  ubuntu: ros-kinetic-rosserial-leonardo-cmake
 ros_mscl:
   ubuntu: ros-kinetic-ros-mscl
 sevcon_ros:
