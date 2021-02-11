@@ -5,6 +5,8 @@
 release_platforms:
   ubuntu:
   - focal
+  debian:
+  - buster
 repositories:
   serial:
     release:

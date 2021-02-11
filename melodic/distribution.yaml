@@ -3,6 +3,8 @@
 # see REP 141: http://ros.org/reps/rep-0141.html
 ---
 release_platforms:
+  debian:
+  - stretch
   ubuntu:
   - bionic
 repositories:
@@ -475,6 +477,36 @@ repositories:
       type: git
       url: https://github.com/ridgeback/ridgeback_robot.git
       version: kinetic-devel
+    status: maintained
+  ros_mscl:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ros_mscl-release.git
+      version: 1.1.3-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    status: maintained
+  rosserial_leonardo_cmake:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/rosserial_leonardo_cmake.git
+      version: hydro-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/rosserial_leonardo_cmake-release.git
+      version: 0.1.4-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/rosserial_leonardo_cmake.git
+      version: hydro-devel
     status: maintained
   sevcon_ros:
     doc:
