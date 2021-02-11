@@ -16,6 +16,8 @@ gpio_msgs:
   ubuntu: ros-melodic-gpio-msgs
 grizzly_firmware:
   ubuntu: ros-melodic-grizzly-firmware
+heron_avr:
+  ubuntu: ros-melodic-heron-firmware
 heron_firmware:
   ubuntu: ros-melodic-heron-firmware
 jackal_firmware:
