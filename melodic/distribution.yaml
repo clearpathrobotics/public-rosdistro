@@ -5,6 +5,8 @@
 release_platforms:
   ubuntu:
   - bionic
+  debian:
+  - stretch
 repositories:
   canfestival_ros:
     doc:
