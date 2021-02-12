@@ -211,6 +211,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/heron_firmware.git
       version: kinetic-devel
     status: maintained
+  heron_simulator:
+    doc:
+      type: git
+      url: https://github.com/heron/heron_simulator.git
+      version: kinetic-devel
+    release:
+      packages:
+      - heron_gazebo
+      - heron_simulator
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/heron_simulator-release.git
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/heron/heron_simulator.git
+      version: kinetic-devel
+    status: maintained
   husky:
     doc:
       type: git
