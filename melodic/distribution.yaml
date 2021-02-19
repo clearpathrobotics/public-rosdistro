@@ -21,6 +21,26 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/software/canfestival_ros.git
       version: devel
     status: maintained
+  cpr_common_msgs:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/cpr_common_msgs.git
+      version: master
+    release:
+      packages:
+      - cpr_common_msgs
+      - cpr_common_srvs
+      - gpio_msgs
+      - led_array_msgs
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/cpr_common_msgs.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/Boxer/cpr_common_msgs.git
+      version: master
+    status: maintained
   cpr_gps_common:
     release:
       packages:
