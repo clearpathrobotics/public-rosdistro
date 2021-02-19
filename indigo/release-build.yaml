@@ -1,9 +1,9 @@
 %YAML 1.1
 ---
-jenkins_url: http://localhost:8010
+jenkins_url: http://prod-vm-build-pub-master-02:8080
 notifications:
   emails:
-  - release@buildbot-ros.github.com
+  - dniewinski@clearpathrobotics.com
   maintainers: true
 targets:
   _config:
