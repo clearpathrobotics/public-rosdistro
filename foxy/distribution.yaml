@@ -5,6 +5,21 @@
 release_platforms:
   ubuntu:
   - focal
-repositories: []
+repositories:
+  teleop_twist_joy:
+    doc:
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: foxy
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/ros2-gbp/teleop_twist_joy-release.git
+      version: 2.4.1-1
+    source:
+      type: git
+      url: https://github.com/ros2/teleop_twist_joy.git
+      version: foxy
+    status: maintained
 type: distribution
 version: 1
