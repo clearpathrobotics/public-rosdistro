@@ -430,6 +430,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/launch_delay.git
       version: main
     status: maintained
+  microhard_snmp:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/microhard_snmp.git
+      version: kinetic-devel
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/microhard_snmp.git
+      version: kinetic-devel
+    status: maintained
   moose:
     doc:
       type: git
