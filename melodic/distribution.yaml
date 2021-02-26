@@ -130,7 +130,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/dingo_firmware_components.git
-      version: 2.9.8-1
+      version: 2.9.9-1
   dingo_robot:
     doc:
       type: git
