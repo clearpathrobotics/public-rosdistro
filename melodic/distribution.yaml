@@ -247,6 +247,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/heron_controller.git
       version: indigo-devel
     status: maintained
+  heron_desktop:
+    doc:
+      type: git
+      url: https://github.com/heron/heron_desktop.git
+      version: kinetic-devel
+    release:
+      packages:
+      - heron_desktop
+      - heron_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/heron_desktop-release.git
+      version: 0.0.3-1
+    source:
+      type: git
+      url: https://github.com/heron/heron_desktop.git
+      version: kinetic-devel
+    status: maintained
   heron_firmware:
     doc:
       type: git
