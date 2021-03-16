@@ -288,17 +288,17 @@ repositories:
   heron_controller:
     doc:
       type: git
-      url: http://gitlab.clearpathrobotics.com/research/heron_controller.git
-      version: indigo-devel
+      url: https://github.com/heron/heron_controller.git
+      version: kinetic-devel
     release:
       tags:
         release: release/kinetic/{package}/{version}
-      url: http://gitlab.clearpathrobotics.com/gbp/heron_controller-gbp.git
-      version: 0.1.0-1
+      url: https://github.com/clearpath-gbp/heron_controller-release.git
+      version: 0.2.0-1
     source:
       type: git
-      url: http://gitlab.clearpathrobotics.com/research/heron_controller.git
-      version: indigo-devel
+      url: https://github.com/heron/heron_controller.git
+      version: kinetic-devel
     status: maintained
   heron_desktop:
     doc:
