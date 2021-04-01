@@ -363,6 +363,17 @@ repositories:
       url: https://github.com/husky/husky_cartographer_navigation.git
       version: melodic-devel
     status: developed
+  image_undistort:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/image_undistort-release.git
+      version: 0.0.1-2
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/image_undistort.git
+      version: master
+    status: maintained
   jackal:
     doc:
       type: git
