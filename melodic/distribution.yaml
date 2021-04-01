@@ -534,6 +534,17 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/moose_robot.git
       version: master
     status: maintained
+  occupancy_grid_utils:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/occupancy_grid_utils-release.git
+      version: 0.0.11-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/occupancy_grid_utils.git
+      version: indigo-devel
+    status: maintained
   puma_motor_driver:
     doc:
       type: git
