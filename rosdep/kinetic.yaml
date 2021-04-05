@@ -18,6 +18,8 @@ grizzly_firmware:
   ubuntu: ros-kinetic-grizzly-firmware
 heron_avr:
   ubuntu: ros-kinetic-heron-firmware
+heron_controller:
+  ubuntu: ros-kinetic-heron-controller
 heron_firmware:
   ubuntu: ros-kinetic-heron-firmware
 jackal_firmware:
