@@ -44,6 +44,8 @@ rosserial_leonardo_cmake:
   ubuntu: ros-melodic-rosserial-leonardo-cmake
 ros_mscl:
   ubuntu: ros-melodic-ros-mscl
+setpriv:
+  ubuntu: setpriv
 sevcon_ros:
   ubuntu: ros-melodic-sevcon-ros
 visual_indication:

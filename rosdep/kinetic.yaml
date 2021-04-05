@@ -44,6 +44,8 @@ rosserial_leonardo_cmake:
   ubuntu: ros-kinetic-rosserial-leonardo-cmake
 ros_mscl:
   ubuntu: ros-kinetic-ros-mscl
+setuidgid:
+  ubuntu: daemontools
 sevcon_ros:
   ubuntu: ros-kinetic-sevcon-ros
 visual_indication:
