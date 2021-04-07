@@ -11,6 +11,8 @@ gdb-arm-none-eabi:
     bionic: gdb-multiarch
   debian:
     stretch: gdb-arm-none-eabi
+libopenexr:
+    ubuntu: libopenexr-dev
 gdb-multiarch:
   ubuntu: gdb-multiarch
 openocd:
