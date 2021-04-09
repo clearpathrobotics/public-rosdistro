@@ -62,7 +62,8 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: git@gitlab.clearpathrobotics.com:gbp/cpr_docking-gbp.git
-      version: 0.0.4-1
+      version: 0.0.4-4
+    status: maintained
   cpr_gps_common:
     release:
       packages:
