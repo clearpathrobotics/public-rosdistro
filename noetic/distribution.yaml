@@ -6,6 +6,24 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  ros_mscl:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    release:
+      packages:
+      - mscl_msgs
+      - ros_mscl
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ros_mscl-release.git
+      version: 1.2.3-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ros_mscl.git
+      version: master
+    status: developed
   serial:
     release:
       tags:
