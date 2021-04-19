@@ -1,2 +1,4 @@
 firmware_components:
   ubuntu: ros-melodic-firmware-components
+libmscl:
+  ubuntu: c++-mscl
