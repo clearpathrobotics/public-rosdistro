@@ -500,6 +500,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/launch_delay.git
       version: main
     status: maintained
+  lockmount_description:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/lockmount_description.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/lockmount_description-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/lockmount_description.git
+      version: main
+    status: maintained
   microhard_snmp:
     doc:
       type: git
