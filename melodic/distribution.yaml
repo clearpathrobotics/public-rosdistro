@@ -159,7 +159,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/dingo_firmware-gbp.git
-      version: 0.1.3-1
+      version: 0.1.5-1
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/dingo_firmware.git
@@ -500,6 +500,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/launch_delay.git
       version: main
     status: maintained
+  lockmount_description:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/lockmount_description.git
+      version: main
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/lockmount_description-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/lockmount_description.git
+      version: main
+    status: maintained
   microhard_snmp:
     doc:
       type: git
@@ -696,7 +711,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/clearpath-gbp/ros_mscl-release.git
-      version: 1.2.4-1
+      version: 1.2.6-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/ros_mscl.git
