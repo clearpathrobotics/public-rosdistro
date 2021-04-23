@@ -21,6 +21,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
       version: melodic-devel
     status: developed
+  jackal_simulator:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_simulator.git
+      version: melodic-devel
+    release:
+      packages:
+      - jackal_gazebo
+      - jackal_simulator
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_simulator-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_simulator.git
+      version: melodic-devel
+    status: developed
   ros_mscl:
     doc:
       type: git
