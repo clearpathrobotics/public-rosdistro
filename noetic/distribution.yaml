@@ -21,6 +21,25 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
       version: melodic-devel
     status: developed
+  jackal_robot:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
+      version: noetic-devel
+    release:
+      packages:
+      - jackal_base
+      - jackal_bringup
+      - jackal_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_robot-release.git
+      version: 0.7.0-1
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
+      version: noetic-devel
+    status: developed
   ros_mscl:
     doc:
       type: git
