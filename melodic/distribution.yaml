@@ -710,7 +710,7 @@ repositories:
       - ros_mscl
       tags:
         release: release/melodic/{package}/{version}
-      url: git@github.com:clearpath-gbp/ros_mscl-release.git
+      url: https://github.com/clearpath-gbp/ros_mscl-release.git
       version: 1.2.7-1
     source:
       type: git
