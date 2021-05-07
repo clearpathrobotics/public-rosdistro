@@ -122,7 +122,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: git@github.com:clearpath-gbp/ros_mscl-release.git
-      version: 1.2.7-2
+      version: 1.2.7-3
     source:
       type: git
       url: https://github.com/clearpathrobotics/ros_mscl.git
