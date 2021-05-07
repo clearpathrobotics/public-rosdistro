@@ -10,7 +10,7 @@ repositories:
     release:
       tags:
         release: release/noetic/{package}/{version}
-      url: git@gitlab.clearpathrobotics.com:gbp/firmware_components-gbp.git
+      url: http://gitlab.clearpathrobotics.com/gbp/firmware_components-gbp.git
       version: 2.9.5-1
   jackal:
     doc:
