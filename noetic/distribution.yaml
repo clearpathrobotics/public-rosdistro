@@ -6,6 +6,12 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  firmware_components:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: git@gitlab.clearpathrobotics.com:gbp/firmware_components-gbp.git
+      version: 2.9.5-1
   jackal:
     doc:
       type: git
