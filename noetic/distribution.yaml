@@ -121,7 +121,7 @@ repositories:
       - ros_mscl
       tags:
         release: release/noetic/{package}/{version}
-      url: https://github.com/clearpath-gbp/ros_mscl-release.git
+      url: git@github.com:clearpath-gbp/ros_mscl-release.git
       version: 1.2.7-2
     source:
       type: git
