@@ -59,7 +59,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/jackal_firmware-gbp.git
-      version: 0.4.3-2
+      version: 0.4.3-3
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
