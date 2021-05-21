@@ -54,7 +54,7 @@ repositories:
     doc:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
-      version: melodic-devel
+      version: noetic-devel
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -63,7 +63,7 @@ repositories:
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/jackal_firmware.git
-      version: melodic-devel
+      version: noetic-devel
     status: developed
   jackal_robot:
     doc:
