@@ -12,6 +12,33 @@ repositories:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/firmware_components-gbp.git
       version: 2.9.5-1
+  husky:
+    doc:
+      type: git
+      url: https://github.com/husky/husky.git
+      version: noetic-devel
+    release:
+      packages:
+      - husky_base
+      - husky_bringup
+      - husky_control
+      - husky_description
+      - husky_desktop
+      - husky_gazebo
+      - husky_msgs
+      - husky_navigation
+      - husky_robot
+      - husky_simulator
+      - husky_viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky-release.git
+      version: 0.5.0-1
+    source:
+      type: git
+      url: https://github.com/husky/husky.git
+      version: noetic-devel
+    status: maintained
   jackal:
     doc:
       type: git
