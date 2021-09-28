@@ -36,6 +36,25 @@ repositories:
       url: https://github.com/husky/husky.git
       version: noetic-devel
     status: maintained
+  husky_robot:
+    doc:
+      type: git
+      url: https://github.com/husky/husky_robot.git
+      version: noetic-devel
+    release:
+      packages:
+      - husky_base
+      - husky_bringup
+      - husky_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/husky_robot-release.git
+      version: 0.6.0-2
+    source:
+      type: git
+      url: https://github.com/husky/husky_robot.git
+      version: noetic-devel
+    status: maintained
   jackal:
     doc:
       type: git
