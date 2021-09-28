@@ -19,15 +19,12 @@ repositories:
       version: noetic-devel
     release:
       packages:
-      - husky_base
-      - husky_bringup
       - husky_control
       - husky_description
       - husky_desktop
       - husky_gazebo
       - husky_msgs
       - husky_navigation
-      - husky_robot
       - husky_simulator
       - husky_viz
       tags:
