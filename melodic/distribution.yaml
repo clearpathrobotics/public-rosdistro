@@ -224,6 +224,12 @@ repositories:
       url: https://github.com/dingo-cpr/dingo_simulator.git
       version: master
     status: developed
+  dingo_tests:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/dingo_tests-gbp.git
+      version: 0.1.1-1
   earth_rover_piksi:
     doc:
       type: git
