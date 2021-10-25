@@ -426,6 +426,13 @@ repositories:
       url: https://github.com/husky/husky_cartographer_navigation.git
       version: melodic-devel
     status: developed
+  husky_gps_navigation:
+    release:
+      tags:
+        release: release/melodic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/husky_gps_navigation-gbp.git
+      version: 0.1.4-2
+    status: maintained
   image_undistort:
     release:
       tags:
