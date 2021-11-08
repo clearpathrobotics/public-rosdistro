@@ -8,30 +8,37 @@ distributions:
     distribution_cache: http://packages/rosdistro/public/hydro-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros1
+    python_version: 2
   indigo:
     distribution: [indigo/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/indigo-cache.yaml.gz
     distribution_status: end-of-life
     distribution_type: ros1
+    python_version: 2
   kinetic:
     distribution: [kinetic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/kinetic-cache.yaml.gz
-    distribution_status: active
+    distribution_status: end-of-life
     distribution_type: ros1
+    python_version: 2
   melodic:
     distribution: [melodic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/melodic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
+    python_version: 2
   noetic:
     distribution: [noetic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/noetic-cache.yaml.gz
     distribution_status: active
     distribution_type: ros1
+    python_version: 3
   foxy:
     distribution: [foxy/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/foxy-cache.yaml.gz
     distribution_status: active
     distribution_type: ros2
+    python_version: 3
+    
 type: index
 version: 4
