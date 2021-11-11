@@ -196,5 +196,24 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/um7-release.git
       version: 0.0.6-1
+  warthog:
+    doc:
+      type: git
+      url: https://github.com/warthog-cpr/warthog.git
+      version: kinetic-devel
+    release:
+      packages:
+      - warthog_control
+      - warthog_description
+      - warthog_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/warthog-release.git
+      version: 0.1.4-1
+    source:
+      type: git
+      url: https://github.com/warthog-cpr/warthog.git
+      version: kinetic-devel
+    status: maintained
 type: distribution
 version: 1
