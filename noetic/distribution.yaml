@@ -6,6 +6,13 @@ release_platforms:
   ubuntu:
   - focal
 repositories:
+  camera_info_manager_py:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/camera_info_manager_py-release.git
+      version: 0.3.1-1
+    status: maintained
   firmware_components:
     release:
       tags:
