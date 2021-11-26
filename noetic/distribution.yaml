@@ -174,6 +174,13 @@ repositories:
       url: https://github.com/clearpathrobotics/lockmount_description.git
       version: main
     status: maintained
+  microhard_snmp:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
+      version: 0.0.2-1
+    status: maintained
   ros_mscl:
     doc:
       type: git
