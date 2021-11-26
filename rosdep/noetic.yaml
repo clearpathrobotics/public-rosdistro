@@ -1,3 +1,5 @@
+clearpath_api:
+  ubuntu: clearpath-api
 firmware_components:
   ubuntu: ros-noetic-firmware-components
 libmscl:
