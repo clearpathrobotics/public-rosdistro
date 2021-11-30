@@ -46,6 +46,7 @@ repositories:
     source:
       type: git
       url: https://github.com/boxer-cpr/boxer.git
+      version: noetic-devel
     status: maintained
   boxer_desktop:
     doc:
