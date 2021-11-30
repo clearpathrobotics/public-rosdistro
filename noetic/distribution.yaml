@@ -48,6 +48,24 @@ repositories:
       url: https://github.com/boxer-cpr/boxer.git
       version: noetic-devel
     status: maintained
+  boxer_desktop:
+    doc:
+      type: git
+      url: https://github.com/boxer-cpr/boxer_desktop.git
+      version: noetic-devel
+    release:
+      packages:
+      - boxer_desktop
+      - boxer_viz
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/boxer_desktop-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/boxer-cpr/boxer_desktop.git
+      version: noetic-devel
+    status: maintained
   camera_info_manager_py:
     release:
       tags:
