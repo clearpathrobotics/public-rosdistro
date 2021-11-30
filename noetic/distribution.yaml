@@ -28,6 +28,25 @@ repositories:
       url: https://github.com/ros-drivers/axis_camera.git
       version: noetic-devel
     status: maintained
+  boxer:
+    doc:
+      type: git
+      url: https://github.com/boxer-cpr/boxer.git
+      version: noetic-devel
+    release:
+      packages:
+      - boxer_control
+      - boxer_description
+      - boxer_msgs
+      - boxer_navigation
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/boxer-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/boxer-cpr/boxer.git
+    status: maintained
   boxer_desktop:
     doc:
       type: git
