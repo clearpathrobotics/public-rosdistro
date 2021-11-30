@@ -236,5 +236,23 @@ repositories:
       url: https://github.com/warthog-cpr/warthog.git
       version: kinetic-devel
     status: maintained
+  wireless:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: master
+    release:
+      packages:
+      - wireless_msgs
+      - wireless_watcher
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/wireless-release.git
+      version: 0.1.2-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: master
+    status: maintained
 type: distribution
 version: 1
