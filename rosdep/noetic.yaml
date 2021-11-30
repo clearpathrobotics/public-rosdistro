@@ -1,4 +1,14 @@
+clearpath_api:
+  ubuntu: clearpath-api
 firmware_components:
   ubuntu: ros-noetic-firmware-components
 libmscl:
   ubuntu: c++-mscl
+
+# ROS2 dependencies needed for Boxer 2.4
+foxy_ros_base:
+  ubuntu: ros-foxy-ros-base
+foxy_ros1_bridge:
+  ubuntu: ros-foxy-ros1-bridge
+foxy_rmw_cyclonedds_cpp:
+  ubuntu: ros-foxy-rmw-cyclonedds-cpp
