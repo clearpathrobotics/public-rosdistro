@@ -66,6 +66,25 @@ repositories:
       url: https://github.com/boxer-cpr/boxer_desktop.git
       version: noetic-devel
     status: maintained
+  boxer_robot:
+    doc:
+      type: git
+      url: https://github.com/boxer-cpr/boxer_robot.git
+      version: noetic-devel
+    release:
+      packages:
+      - boxer_base
+      - boxer_bringup
+      - boxer_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/boxer_robot-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/boxer-cpr/boxer_robot.git
+      version: noetic-devel
+    status: maintained
   boxer_simulator:
     doc:
       type: git
