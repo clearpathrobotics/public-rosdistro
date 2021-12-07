@@ -231,25 +231,6 @@ repositories:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/dingo_tests-gbp.git
       version: 0.1.1-1
-  earth_rover_piksi:
-    doc:
-      type: git
-      url: https://github.com/earthrover/earth_rover_piksi.git
-      version: master
-    release:
-      packages:
-      - earth_rover_piksi
-      - piksi_multi_rtk
-      - piksi_rtk_msgs
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/clearpath-gbp/earth_rover_piksi-release.git
-      version: 1.8.2-1
-    source:
-      type: git
-      url: https://github.com/earthrover/earth_rover_piksi.git
-      version: master
-    status: maintained
   firmware_components:
     doc:
       type: git
