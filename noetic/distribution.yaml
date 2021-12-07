@@ -249,6 +249,13 @@ repositories:
       url: https://github.com/jackal/jackal_simulator.git
       version: melodic-devel
     status: developed
+  launch_delay:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/launch_delay-gbp.git
+      version: 0.1.0-1
+    status: maintained
   lockmount_description:
     doc:
       type: git
