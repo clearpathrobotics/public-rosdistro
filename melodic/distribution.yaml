@@ -116,7 +116,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_navigation-gbp.git
-      version: 0.1.29-1
+      version: 0.1.30-1
     status: maintained
   cpr_gps_tasks:
     release:
