@@ -278,6 +278,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
       version: 0.0.2-1
     status: maintained
+  puma_motor_driver:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/puma_motor_driver.git
+      version: master
+    release:
+      packages:
+      - puma_motor_driver
+      - puma_motor_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/puma_motor_driver-release.git
+      version: 0.3.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/puma_motor_driver.git
+      version: master
+    status: maintained
   ros_mscl:
     doc:
       type: git
