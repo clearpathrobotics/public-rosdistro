@@ -331,6 +331,25 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/ridgeback_firmware.git
       version: melodic-devel
     status: maintained
+  ridgeback_robot:
+    doc:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_robot.git
+      version: noetic-devel
+    release:
+      packages:
+      - ridgeback_base
+      - ridgeback_bringup
+      - ridgeback_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ridgeback_robot-release.git
+      version: 0.4.0-1
+    source:
+      type: git
+      url: https://github.com/ridgeback/ridgeback_robot.git
+      version: noetic-devel
+    status: maintained
   ros_mscl:
     doc:
       type: git
