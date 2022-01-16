@@ -481,6 +481,24 @@ repositories:
       url: https://github.com/jackal/jackal_cartographer_navigation.git
       version: melodic-devel
     status: developed
+  jackal_desktop:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_desktop.git
+      version: melodic-devel
+    release:
+      packages:
+      - jackal_desktop
+      - jackal_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_desktop-release.git
+      version: 0.4.1-1
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_desktop.git
+      version: melodic-devel
+    status: maintained
   jackal_firmware:
     doc:
       type: git
