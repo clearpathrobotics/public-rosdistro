@@ -534,7 +534,7 @@ repositories:
       tags:
         release: release/melodic/{package}/{version}
       url: https://github.com/clearpath-gbp/jackal_robot-release.git
-      version: 0.6.3-1
+      version: 0.6.4-1
     source:
       type: git
       url: https://github.com/jackal/jackal_robot.git
