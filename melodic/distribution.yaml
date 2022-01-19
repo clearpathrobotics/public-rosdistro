@@ -875,6 +875,24 @@ repositories:
       url: https://github.com/warthog-cpr/warthog.git
       version: kinetic-devel
     status: maintained
+  warthog_desktop:
+    doc:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_desktop.git
+      version: melodic-devel
+    release:
+      packages:
+      - warthog_desktop
+      - warthog_viz
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/warthog_desktop-release.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_desktop.git
+      version: melodic-devel
+    status: maintained
   warthog_firmware:
     doc:
       type: git
