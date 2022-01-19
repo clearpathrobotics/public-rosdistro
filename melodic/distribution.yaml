@@ -934,5 +934,23 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/research/warthog_robot.git
       version: kinetic-devel
     status: maintained
+  warthog_simulator:
+    doc:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_simulator.git
+      version: melodic-devel
+    release:
+      packages:
+      - warthog_gazebo
+      - warthog_simulator
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/warthog_simulator-release.git
+      version: 0.2.2-2
+    source:
+      type: git
+      url: https://github.com/warthog-cpr/warthog_simulator.git
+      version: melodic-devel
+    status: maintained
 type: distribution
 version: 1
