@@ -148,6 +148,25 @@ repositories:
       url: https://github.com/dingo-cpr/dingo_desktop.git
       version: master
     status: maintained
+  dingo_robot:
+    doc:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_robot.git
+      version: noetic-devel
+    release:
+      packages:
+      - dingo_base
+      - dingo_bringup
+      - dingo_robot
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/dingo_robot-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/dingo-cpr/dingo_robot.git
+      version: noetic-devel
+    status: maintained
   dingo_tests:
     doc:
       type: git
