@@ -532,5 +532,20 @@ repositories:
       url: https://github.com/clearpathrobotics/wireless.git
       version: master
     status: maintained
+  yperio:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/yperio.git
+      version: main
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/yperio-gbp.git
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/yperio.git
+      version: main
+    status: developed
 type: distribution
 version: 1
