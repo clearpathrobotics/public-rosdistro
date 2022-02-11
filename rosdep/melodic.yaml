@@ -124,6 +124,8 @@ libmscl:
   ubuntu: c++-mscl
 linux_gpio_driver:
   ubuntu: ros-melodic-linux-gpio-driver
+lockmount_description:
+  ubuntu: ros-melodic-lockmount-description
 microhard_snmp:
   ubuntu: ros-melodic-microhard-snmp
 ridgeback_base:
