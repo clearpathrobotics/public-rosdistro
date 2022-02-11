@@ -10,6 +10,32 @@ cpr_common_msgs:
   ubuntu: ros-melodic-cpr-common-msgs
 cpr_common_srvs:
   ubuntu: ros-melodic-cpr-common-srvs
+dingo_base:
+  ubuntu: ros-melodic-dingo-base
+dingo_bringup:
+  ubuntu: ros-melodic-dingo-bringup
+dingo_control:
+  ubuntu: ros-melodic-dingo-control
+dingo_description:
+  ubuntu: ros-melodic-dingo-description
+dingo_desktop:
+  ubuntu: ros-melodic-dingo-desktop
+dingo_firmware_components:
+  ubuntu: ros-melodic-dingo-firmware-components
+dingo_gazebo:
+  ubuntu: ros-melodic-dingo-gazebo
+dingo_msgs:
+  ubuntu: ros-melodic-dingo-msgs
+dingo_navigation:
+  ubuntu: ros-melodic-dingo-navigation
+dingo_robot:
+  ubuntu: ros-melodic-dingo-robot
+dingo_simulator:
+  ubuntu: ros-melodic-dingo-simulator
+dingo_tests:
+  ubuntu: ros-melodic-dingo-tests
+dingo_viz:
+  ubuntu: ros-melodic-dingo-viz
 firmware_components:
   ubuntu: ros-melodic-firmware-components
 gpio_msgs:
@@ -17,13 +43,79 @@ gpio_msgs:
 grizzly_firmware:
   ubuntu: ros-melodic-grizzly-firmware
 heron_avr:
-  ubuntu: ros-melodic-heron-firmware
+  ubuntu: ros-melodic-heron-avr
+heron_base:
+  ubuntu: ros-melodic-heron-base
+heron_bringup:
+  ubuntu: ros-melodic-heron-bringup
+heron_control:
+  ubuntu: ros-melodic-heron-control
 heron_controller:
   ubuntu: ros-melodic-heron-controller
+heron_description:
+  ubuntu: ros-melodic-heron-description
+heron_desktop:
+  ubuntu: ros-melodic-heron-desktop
 heron_firmware:
   ubuntu: ros-melodic-heron-firmware
+heron_gazebo:
+  ubuntu: ros-melodic-heron-gazebo
+heron_msgs:
+  ubuntu: ros-melodic-heron-msgs
+heron_nmea:
+  ubuntu: ros-melodic-heron-nmea
+heron_robot:
+  ubuntu: ros-melodic-heron-robot
+heron_simulator:
+  ubuntu: ros-melodic-heron-simulator
+heron_viz:
+  ubuntu: ros-melodic-heron-viz
+husky_base:
+  ubuntu: ros-melodic-husky-base
+husky_bringup:
+  ubuntu: ros-melodic-husky-bringup
+husky_control:
+  ubuntu: ros-melodic-husky-control
+husky_description:
+  ubuntu: ros-melodic-husky-description
+husky_desktop:
+  ubuntu: ros-melodic-husky-desktop
+husky_gazebo:
+  ubuntu: ros-melodic-husky-gazebo
+husky_msgs:
+  ubuntu: ros-melodic-husky-msgs
+husky_navigation:
+  ubuntu: ros-melodic-husky-navigation
+husky_robot:
+  ubuntu: ros-melodic-husky-robot
+husky_simulator:
+  ubuntu: ros-melodic-husky-simulator
+husky_viz:
+  ubuntu: ros-melodic-husky-viz
+jackal_base:
+  ubuntu: ros-melodic-jackal-base
+jackal_bringup:
+  ubuntu: ros-melodic-jackal-bringup
+jackal_control:
+  ubuntu: ros-melodic-jackal-control
+jackal_description:
+  ubuntu: ros-melodic-jackal-description
+jackal_desktop:
+  ubuntu: ros-melodic-jackal-desktop
 jackal_firmware:
   ubuntu: ros-melodic-jackal-firmware
+jackal_gazebo:
+  ubuntu: ros-melodic-jackal-gazebo
+jackal_msgs:
+  ubuntu: ros-melodic-jackal-msgs
+jackal_navigation:
+  ubuntu: ros-melodic-jackal-navigation
+jackal_robot:
+  ubuntu: ros-melodic-jackal-robot
+jackal_simulator:
+  ubuntu: ros-melodic-jackal-simulator
+jackal_viz:
+  ubuntu: ros-melodic-jackal-viz
 launch_delay:
   ubuntu: ros-melodic-launch-delay
 led_array_msgs:
@@ -34,8 +126,32 @@ linux_gpio_driver:
   ubuntu: ros-melodic-linux-gpio-driver
 microhard_snmp:
   ubuntu: ros-melodic-microhard-snmp
+ridgeback_base:
+  ubuntu: ros-melodic-ridgeback-base
+ridgeback_bringup:
+  ubuntu: ros-melodic-ridgeback-bringup
+ridgeback_control:
+  ubuntu: ros-melodic-ridgeback-control
+ridgeback_description:
+  ubuntu: ros-melodic-ridgeback-description
+ridgeback_desktop:
+  ubuntu: ros-melodic-ridgeback-desktop
 ridgeback_firmware:
   ubuntu: ros-melodic-ridgeback-firmware
+ridgeback_gazebo:
+  ubuntu: ros-melodic-ridgeback-gazebo
+ridgeback_gazebo_plugins:
+  ubuntu: ros-melodic-ridgeback-gazebo-plugins
+ridgeback_msgs:
+  ubuntu: ros-melodic-ridgeback-msgs
+ridgeback_navigation:
+  ubuntu: ros-melodic-ridgeback-navigation
+ridgeback_robot:
+  ubuntu: ros-melodic-ridgeback-robot
+ridgeback_simulator:
+  ubuntu: ros-melodic-ridgeback-simulator
+ridgeback_viz:
+  ubuntu: ros-melodic-ridgeback-viz
 robot_state_aggregator:
   ubuntu: ros-melodic-robot-state-aggregator
 robot_state_aggregator_client:
@@ -50,7 +166,27 @@ sevcon_ros:
   ubuntu: ros-melodic-sevcon-ros
 visual_indication:
   ubuntu: ros-melodic-visual-indication
+warthog_base:
+  ubuntu: ros-melodic-warthog-base
+warthog_bringup:
+  ubuntu: ros-melodic-warthog-bringup
+warthog_control:
+  ubuntu: ros-melodic-warthog-control
+warthog_description:
+  ubuntu: ros-melodic-warthog-description
+warthog_desktop:
+  ubuntu: ros-melodic-warthog-desktop
 warthog_firmware:
   ubuntu: ros-melodic-warthog-firmware
+warthog_gazebo:
+  ubuntu: ros-melodic-warthog-gazebo
+warthog_navigation:
+  ubuntu: ros-melodic-warthog-gps-navigation
+warthog_msgs:
+  ubuntu: ros-melodic-warthog-msgs
 warthog_robot:
   ubuntu: ros-melodic-warthog-robot
+warthog_simulator:
+  ubuntu: ros-melodic-warthog-simulator
+warthog_viz:
+  ubuntu: ros-melodic-warthog-viz
