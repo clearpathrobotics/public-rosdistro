@@ -518,6 +518,24 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/serial-release.git
       version: 1.2.1-1
+  sevcon_ros:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: noetic-devel
+    release:
+      packages:
+      - sevcon_ros
+      - sevcon_traction
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/sevcon_ros-gbp.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: noetic-devel
+    status: maintained
   um6:
     release:
       tags:
