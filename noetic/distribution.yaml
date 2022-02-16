@@ -110,6 +110,21 @@ repositories:
       url: https://github.com/clearpath-gbp/camera_info_manager_py-release.git
       version: 0.3.1-1
     status: maintained
+  canfestival_ros:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/canfestival_ros-gbp.git
+      version: 0.10.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: noetic-devel
+    status: maintained
   dingo:
     doc:
       type: git
