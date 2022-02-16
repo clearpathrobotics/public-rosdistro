@@ -598,7 +598,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/warthog_robot-gbp.git
-      version: 0.1.5-1
+      version: 0.2.0-1
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/warthog_robot.git
