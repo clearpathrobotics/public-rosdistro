@@ -143,6 +143,21 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/cpr-indoornav/cpr_indoornav.git
       version: noetic-devel
     status: developed
+  cpr_robot_customizer:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_robot_customizer.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_robot_customizer-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_robot_customizer.git
+      version: noetic-devel
+    status: developed
   dingo:
     doc:
       type: git
