@@ -152,7 +152,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_robot_customizer-release.git
-      version: 0.1.0-1
+      version: 0.1.0-2
     source:
       type: git
       url: https://github.com/clearpathrobotics/cpr_robot_customizer.git
