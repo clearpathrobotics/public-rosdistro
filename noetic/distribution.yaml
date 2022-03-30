@@ -436,6 +436,13 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
       version: 0.0.2-1
     status: maintained
+  occupancy_grid_utils:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/occupancy_grid_utils-release.git
+      version: 0.0.11-1
+    status: maintained
   puma_motor_driver:
     doc:
       type: git
