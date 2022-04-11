@@ -443,6 +443,16 @@ repositories:
       url: https://github.com/clearpath-gbp/occupancy_grid_utils-release.git
       version: 0.1.0-1
     status: maintained
+  piksi_rtk_msgs:
+    release:
+      packages:
+      - earth_rover_piksi
+      - piksi_multi_rtk
+      - piksi_rtk_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/earth_rover_piksi-release.git
+      version: 1.8.3-1
   puma_motor_driver:
     doc:
       type: git
