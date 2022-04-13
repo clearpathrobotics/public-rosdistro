@@ -147,6 +147,23 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_common-gbp.git
       version: 0.1.13-1
     status: maintained
+  cpr_gps_navigation:
+    release:
+      packages:
+      - cpr_gps_costmap_layers
+      - cpr_gps_localization
+      - cpr_gps_navigation
+      - cpr_gps_navigation_client
+      - cpr_gps_navigation_server
+      - cpr_gps_path_smoothing
+      - cpr_gps_safety
+      - cpr_lidar_odometry
+      - cpr_sbpl_lattice_planner
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_navigation-gbp.git
+      version: 0.1.31-1
+    status: maintained
   cpr_indoornav:
     doc:
       type: git
