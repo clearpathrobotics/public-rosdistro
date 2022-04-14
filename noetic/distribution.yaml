@@ -312,6 +312,18 @@ repositories:
       url: https://github.com/ros-drivers/flir_camera_driver.git
       version: noetic-devel
     status: maintained
+  gps_mpc_navigation:
+    release:
+      packages:
+      - cpr_local_planner
+      - cpr_pathtracker
+      - gps_mpc_navigation
+      - grid_library
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/gps_mpc_navigation-gbp.git
+      version: 0.1.11-1
+    status: maintained
   husky:
     doc:
       type: git
