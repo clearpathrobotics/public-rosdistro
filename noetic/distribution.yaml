@@ -333,7 +333,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/gps_mpc_navigation-gbp.git
-      version: 0.1.11-1
+      version: 0.2.0-1
     status: maintained
   husky:
     doc:
