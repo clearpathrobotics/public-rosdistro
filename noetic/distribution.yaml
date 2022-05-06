@@ -205,6 +205,21 @@ repositories:
       url: https://github.com/clearpathrobotics/cpr-indoornav-jackal.git
       version: noetic-devel
     status: developed
+  cpr_indoornav_tests:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr-indoornav-tests.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_indoornav_tests-release.git
+      version: 0.3.0-2
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr-indoornav-tests.git
+      version: noetic-devel
+    status: developed
   cpr_robot_customizer:
     doc:
       type: git
