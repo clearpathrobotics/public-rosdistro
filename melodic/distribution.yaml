@@ -129,25 +129,6 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/cpr_gps_tasks-gbp.git
       version: 0.0.4-1
     status: maintained
-  cpr_indoornav:
-    doc:
-      type: git
-      url: https://gitlab.clearpathrobotics.com/cpr-indoornav/cpr_indoornav.git
-      version: melodic-devel
-    release:
-      packages:
-      - cpr_indoornav
-      - cpr_indoornav_msgs
-      - cpr_indoornav_tests
-      tags:
-        release: release/melodic/{package}/{version}
-      url: https://github.com/clearpath-gbp/cpr_indoornav-release.git
-      version: 0.1.1-1
-    source:
-      type: git
-      url: https://gitlab.clearpathrobotics.com/cpr-indoornav/cpr_indoornav.git
-      version: melodic-devel
-    status: developed
   dingo:
     doc:
       type: git
