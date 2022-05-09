@@ -205,6 +205,21 @@ repositories:
       url: https://github.com/clearpathrobotics/cpr-indoornav-dingo.git
       version: noetic-devel
     status: developed
+  cpr_indoornav_husky:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr-indoornav-husky.git
+      version: noetic-devel
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_indoornav_husky-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr-indoornav-husky.git
+      version: noetic-devel
+    status: developed
   cpr_indoornav_jackal:
     doc:
       type: git
