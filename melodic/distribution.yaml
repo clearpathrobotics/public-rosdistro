@@ -81,6 +81,28 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/cpr_docking-gbp.git
       version: 0.0.9-1
     status: maintained
+  cpr_gazebo:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_gazebo.git
+      version: melodic-devel
+    release:
+      packages:
+      - cpr_agriculture_gazebo
+      - cpr_inspection_gazebo
+      - cpr_obstacle_gazebo
+      - cpr_office_gazebo
+      - cpr_orchard_gazebo
+      - gazebo_race_modules
+      tags:
+        release: release/melodic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_gazebo-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_gazebo.git
+      version: melodic-devel
+    status: maintained
   cpr_gps_common:
     release:
       packages:
