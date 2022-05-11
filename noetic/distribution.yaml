@@ -141,7 +141,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_gazebo-release.git
-      version: 0.2.1-1
+      version: 0.2.1-2
     source:
       type: git
       url: https://github.com/clearpathrobotics/cpr_gazebo.git
