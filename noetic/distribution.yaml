@@ -125,6 +125,28 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
       version: noetic-devel
     status: maintained
+  cpr_gazebo:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_gazebo.git
+      version: noetic-devel
+    release:
+      packages:
+      - cpr_agriculture_gazebo
+      - cpr_inspection_gazebo
+      - cpr_obstacle_gazebo
+      - cpr_office_gazebo
+      - cpr_orchard_gazebo
+      - gazebo_race_modules
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_gazebo-release.git
+      version: 0.2.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/cpr_gazebo.git
+      version: noetic-devel
+    status: maintained
   cpr_gps_common:
     release:
       packages:
