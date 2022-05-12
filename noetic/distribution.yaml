@@ -125,6 +125,17 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
       version: noetic-devel
     status: maintained
+  cpr_common_msgs:
+    release:
+      packages:
+      - cpr_common_msgs
+      - cpr_common_srvs
+      - gpio_msgs
+      - led_array_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/boxer_gbp/cpr_common_msgs.git
+      version: 0.0.1-1
   cpr_gazebo:
     doc:
       type: git
