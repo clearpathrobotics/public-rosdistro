@@ -400,21 +400,6 @@ repositories:
       url: https://github.com/dingo-cpr/dingo_simulator.git
       version: master
     status: maintained
-  dingo_tests:
-    doc:
-      type: git
-      url: https://gitlab.clearpathrobotics.com/research/dingo_tests.git
-      version: noetic-devel
-    release:
-      tags:
-        release: release/noetic/{package}/{version}
-      url: http://gitlab.clearpathrobotics.com/gbp/dingo_tests-gbp.git
-      version: 0.2.1-1
-    source:
-      type: git
-      url: https://gitlab.clearpathrobotics.com/research/dingo_tests.git
-      version: noetic-devel
-    status: maintained
   firmware_components:
     release:
       tags:
