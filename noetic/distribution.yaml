@@ -298,6 +298,18 @@ repositories:
       url: https://github.com/clearpathrobotics/cpr-indoornav-tests.git
       version: noetic-devel
     status: developed
+  cpr_platform_tests:
+    release:
+      packages:
+      - dingo_tests
+      - husky_tests
+      - jackal_tests
+      - ridgeback_tests
+      - warthog_tests
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/cpr_platform_tests-gbp.git
+      version: 0.3.0-1
   cpr_robot_customizer:
     doc:
       type: git
