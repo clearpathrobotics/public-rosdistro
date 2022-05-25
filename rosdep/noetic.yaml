@@ -2,9 +2,26 @@ clearpath_api:
   ubuntu: clearpath-api
 firmware_components:
   ubuntu: ros-noetic-firmware-components
+husky_tests:
+  ubuntu: ros-noetic-husky-tests
+jackal_firmware:
+  ubuntu: ros-noetic-jackal-firmware
+jackal_tests:
+  ubuntu: ros-noetic-jackal-tests
 libmscl:
   ubuntu: c++-mscl
-
+ridgeback_firmware:
+  ubuntu: ros-noetic-ridgeback-firmware
+ridgeback_tests:
+  ubuntu: ros-noetic-ridgeback-tests
+sevcon_ros:
+  ubuntu: ros-noetic-sevcon-ros
+warthog_firmware:
+  ubuntu: ros-noetic-warthog-firmware
+warthog_robot:
+  ubuntu: ros-noetic-warthog-robot
+warthog_tests:
+  ubuntu: ros-noetic-warthog-tests
 # ROS2 dependencies needed for Boxer 2.4
 foxy_ros_base:
   ubuntu: ros-foxy-ros-base
