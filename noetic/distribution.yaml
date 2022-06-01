@@ -301,6 +301,7 @@ repositories:
   cpr_platform_tests:
     release:
       packages:
+      - boxer_tests
       - dingo_tests
       - husky_tests
       - jackal_tests
@@ -309,7 +310,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/cpr_platform_tests-gbp.git
-      version: 0.3.1-1
+      version: 0.3.2-1
   cpr_robot_customizer:
     doc:
       type: git
