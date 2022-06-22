@@ -794,6 +794,24 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/um7-release.git
       version: 0.0.6-1
+  video_recorder:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/video_recorder.git
+      version: noetic-devel
+    release:
+      packages:
+      - video_recorder
+      - video_recorder_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/video_recorder-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/video_recorder.git
+      version: noetic-devel
+    status: developed
   warthog:
     doc:
       type: git
