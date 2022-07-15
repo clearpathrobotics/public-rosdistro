@@ -207,7 +207,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/cpr_gps_tasks-gbp.git
-      version: 0.1.0-1
+      version: 0.2.0-1
     status: maintained
   cpr_indoornav_base:
     doc:
