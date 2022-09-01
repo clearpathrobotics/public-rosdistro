@@ -802,12 +802,14 @@ repositories:
       version: noetic-devel
     release:
       packages:
+      - audio_recorder
+      - audio_recorder_msgs
       - video_recorder
       - video_recorder_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/video_recorder-release.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/video_recorder.git
