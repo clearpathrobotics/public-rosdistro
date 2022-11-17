@@ -76,6 +76,21 @@ repositories:
       url: https://github.com/jackal/jackal_desktop.git
       version: foxy-devel
     status: maintained
+  jackal_robot:
+    doc:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
+      version: foxy-devel
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/clearpath-gbp/jackal_robot-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/jackal/jackal_robot.git
+      version: foxy-devel
+    status: maintained
   jackal_simulator:
     doc:
       type: git
