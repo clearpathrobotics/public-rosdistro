@@ -233,7 +233,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_indoornav_dingo-release.git
-      version: 0.3.1-2
+      version: 0.3.2-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/cpr-indoornav-dingo.git
