@@ -4,7 +4,7 @@ jenkins_url: http://prod-vm-build-pub-master-02:8080
 notifications:
   committers: true
   emails:
-  - dniewinski@clearpathrobotics.com
+  - tbaltovski@clearpathrobotics.com
   maintainers: true
 targets:
   _config:
