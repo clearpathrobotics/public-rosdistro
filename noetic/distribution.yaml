@@ -796,6 +796,24 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/ros-drivers-gbp/um7-release.git
       version: 0.0.6-1
+  valence_bms:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: kinetic-devel
+    release:
+      packages:
+      - valence_bms_driver
+      - valence_bms_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: http://gitlab.clearpathrobotics.com/gbp/valence_bms-gbp.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: kinetic-devel
+    status: maintained
   video_recorder:
     doc:
       type: git
