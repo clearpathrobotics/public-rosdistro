@@ -109,6 +109,21 @@ repositories:
       url: https://github.com/jackal/jackal_simulator.git
       version: foxy-devel
     status: developed
+  simple_term_menu_vendor:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/simple-term-menu.git
+      version: humble
+    release:
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/clearpath-gbp/simple_term_menu_vendor-release.git
+      version: 1.5.5-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/simple-term-menu.git
+      version: humble
+    status: developed
   teleop_twist_joy:
     doc:
       type: git
