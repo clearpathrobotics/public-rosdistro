@@ -924,6 +924,24 @@ repositories:
       url: https://github.com/warthog-cpr/warthog_simulator.git
       version: melodic-devel
     status: maintained
+  wibotic-ros-can-connector:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wibotic-ros-can-connector.git
+      version: noetic-devel
+    release:
+      packages:
+      - wibotic_connector_can
+      - wibotic_msg
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/wibotic-ros-can-connector_release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wibotic-ros-can-connector.git
+      version: noetic-devel
+    status: maintained
   wireless:
     doc:
       type: git
