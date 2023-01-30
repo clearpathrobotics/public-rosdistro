@@ -372,7 +372,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/dingo_firmware-gbp.git
-      version: 0.2.0-1
+      version: 0.3.0-1
   dingo_firmware_components:
     release:
       tags:
