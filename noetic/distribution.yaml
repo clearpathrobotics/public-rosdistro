@@ -301,6 +301,13 @@ repositories:
       url: https://github.com/clearpathrobotics/cpr-indoornav-tests.git
       version: noetic-devel
     status: developed
+  cpr_onav_description:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
+      version: 0.1.0-1
+    status: maintained
   cpr_platform_tests:
     release:
       packages:
