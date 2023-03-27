@@ -668,6 +668,25 @@ repositories:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/earth_rover_piksi-release.git
       version: 1.8.3-1
+  ptz_action_server:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ptz_action_server.git
+      version: main
+    release:
+      packages:
+      - axis_ptz_action_server
+      - flir_ptu_action_server
+      - ptz_action_server_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/ptz_action_server-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ptz_action_server.git
+      version: main
+    status: maintained
   puma_motor_driver:
     doc:
       type: git
