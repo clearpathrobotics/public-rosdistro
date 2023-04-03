@@ -651,6 +651,21 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
       version: 0.0.2-1
     status: maintained
+  numato_relay_interface:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/numato_relay_interface.git
+      version: master
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/numato_relay_interface-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/numato_relay_interface.git
+      version: master
+    status: maintained
   occupancy_grid_utils:
     release:
       tags:
