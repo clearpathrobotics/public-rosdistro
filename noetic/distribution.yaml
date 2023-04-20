@@ -654,8 +654,8 @@ repositories:
   numato_relay_interface:
     doc:
       type: git
-      url: https://gitlab.clearpathrobotics.com/research/numato_relay_interface.git
-      version: master
+      url: https://github.com/clearpathrobotics/numato_relay_interface.git
+      version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
@@ -663,8 +663,8 @@ repositories:
       version: 0.1.2-1
     source:
       type: git
-      url: https://gitlab.clearpathrobotics.com/research/numato_relay_interface.git
-      version: master
+      url: https://github.com/clearpathrobotics/numato_relay_interface.git
+      version: main
     status: maintained
   occupancy_grid_utils:
     release:
