@@ -22,6 +22,8 @@ python-cffi:
   ubuntu: python-cffi
 python-prompt-toolkit:
   ubuntu: python-prompt-toolkit
+python3-tftpy:
+  ubuntu: python3-tftpy
 pyuavcan-v0:
   ubuntu:
     focal: python3-pyuavcan-v0
