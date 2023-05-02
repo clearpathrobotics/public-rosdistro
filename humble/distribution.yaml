@@ -1,0 +1,28 @@
+%YAML 1.1
+# ROS distribution file
+# see REP 141: http://ros.org/reps/rep-0141.html
+---
+release_platforms:
+  ubuntu:
+  - jammy
+repositories:
+  wireless:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: foxy-devel
+    release:
+      packages:
+      - wireless_msgs
+      - wireless_watcher
+      tags:
+        release: release/foxy/{package}/{version}
+      url: https://github.com/clearpath-gbp/wireless-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: foxy-devel
+    status: maintained
+type: distribution
+version: 1
