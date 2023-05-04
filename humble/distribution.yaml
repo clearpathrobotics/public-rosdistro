@@ -24,5 +24,18 @@ repositories:
       url: https://github.com/clearpathrobotics/wireless.git
       version: foxy-devel
     status: maintained
+  clearpath_config:
+    release:
+      packages:
+      - clearpath_config
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/research/clearpath_config-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/clearpath_config.git
+      version: main
+    status: maintained
 type: distribution
 version: 1
