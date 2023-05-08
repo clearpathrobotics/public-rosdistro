@@ -302,11 +302,19 @@ repositories:
       version: noetic-devel
     status: developed
   cpr_onav_description:
+    doc:
+      type: git
+      url: https://github.com/cpr-application/cpr_onav_description.git
+      version: main
     release:
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/cpr_onav_description-release.git
-      version: 0.1.0-1
+      version: 0.1.1-1
+    source:
+      type: git
+      url: https://github.com/cpr-application/cpr_onav_description.git
+      version: main
     status: maintained
   cpr_platform_tests:
     release:
