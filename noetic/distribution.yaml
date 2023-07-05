@@ -657,7 +657,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
-      version: 0.0.2-1
+      version: 0.0.3-1
     status: maintained
   numato_relay_interface:
     doc:
