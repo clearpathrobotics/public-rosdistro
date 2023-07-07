@@ -24,7 +24,7 @@ distributions:
   melodic:
     distribution: [melodic/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/melodic-cache.yaml.gz
-    distribution_status: active
+    distribution_status: end-of-life
     distribution_type: ros1
     python_version: 2
   noetic:
@@ -36,7 +36,7 @@ distributions:
   foxy:
     distribution: [foxy/distribution.yaml]
     distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/foxy-cache.yaml.gz
-    distribution_status: active
+    distribution_status: end-of-life
     distribution_type: ros2
     python_version: 3
   humble:
