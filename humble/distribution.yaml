@@ -17,7 +17,7 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/research/clearpath_config.git
       version: 0.0.1
     status: maintained
-  clearpath_msg:
+  clearpath_msgs:
     doc:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
