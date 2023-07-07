@@ -7,11 +7,15 @@ release_platforms:
   - jammy
 repositories:
   clearpath_config:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_config.git
+      version: main
     release:
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_config-release.git
-      version: 0.0.1-1
+      version: 0.0.3-2
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/research/clearpath_config.git
