@@ -428,7 +428,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/dingo_firmware_components.git
-      version: 2.9.15-1
+      version: 2.9.15-2
   dingo_robot:
     doc:
       type: git
