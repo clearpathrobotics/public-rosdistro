@@ -97,6 +97,12 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
       version: main
     status: developed
+  nmea_navsat_driver:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/nmea_navsat_driver-release.git
+      version: 2.0.0-1
   wireless:
     doc:
       type: git
