@@ -1,2 +1,2 @@
-micro_ros_agent:
-  ubuntu: vulcanexus-humble-micro-ros-agent
+jackal_firmware:
+  ubuntu: ros-humble-jackal-firmware
