@@ -78,6 +78,25 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_nav2_demos.git
       version: main
     status: developed
+  clearpath_robot:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_robot.git
+      version: main
+    release:
+      packages:
+      - clearpath_generator_robot
+      - clearpath_robot
+      - clearpath_sensors
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_robot-release.git
+      version: 0.0.1-2
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_robot.git
+      version: main
+    status: developed
   clearpath_simulator:
     doc:
       type: git
