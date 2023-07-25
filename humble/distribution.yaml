@@ -153,6 +153,12 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/nmea_navsat_driver-release.git
       version: 2.0.0-1
+  serial:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/serial-release.git
+      version: 2.0.0-1
   wireless:
     doc:
       type: git
