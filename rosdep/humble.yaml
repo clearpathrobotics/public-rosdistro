@@ -1,2 +1,4 @@
 jackal_firmware:
   ubuntu: ros-humble-jackal-firmware
+lsb-release:
+  ubuntu: lsb-release
