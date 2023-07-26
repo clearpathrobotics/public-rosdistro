@@ -159,6 +159,12 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/serial-release.git
       version: 2.0.0-1
+  umx_driver:
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/um7-release.git
+      version: 1.0.1-3
   wireless:
     doc:
       type: git
