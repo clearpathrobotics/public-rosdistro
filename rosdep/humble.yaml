@@ -1,4 +1,10 @@
+clearpath_robot:
+  ubuntu: ros-humble-clearpath-robot
 jackal_firmware:
   ubuntu: ros-humble-jackal-firmware
-lsb-release:
-  ubuntu: lsb-release
+nmea_navsat_driver:
+  ubuntu: ros-humble-nmea-navsat-driver
+serial:
+  ubuntu: ros-humble-serial
+umx_driver:
+  ubuntu: ros-humble-umx-driver
