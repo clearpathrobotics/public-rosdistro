@@ -2,6 +2,8 @@ clearpath_robot:
   ubuntu: ros-humble-clearpath-robot
 jackal_firmware:
   ubuntu: ros-humble-jackal-firmware
+micro_ros_agent:
+  ubuntu: ros-humble-micro-ros-agent
 nmea_navsat_driver:
   ubuntu: ros-humble-nmea-navsat-driver
 serial:
