@@ -801,7 +801,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/ridgeback_firmware-gbp.git
-      version: 0.3.0-1
+      version: 0.3.1-1
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/ridgeback_firmware.git
