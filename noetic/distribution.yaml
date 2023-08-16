@@ -754,6 +754,24 @@ repositories:
       url: https://github.com/clearpathrobotics/puma_motor_driver.git
       version: master
     status: maintained
+  realsense_ros:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/realsense_ros.git
+      version: ros1-legacy
+    release:
+      packages:
+      - realsense2_camera
+      - realsense2_description
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://github.com/clearpath-gbp/realsense_ros-release.git
+      version: 2.3.3-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/realsense_ros.git
+      version: ros1-legacy
+    status: unmaintained
   ridgeback:
     doc:
       type: git
