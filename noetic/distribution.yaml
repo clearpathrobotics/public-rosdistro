@@ -125,6 +125,13 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
       version: noetic-devel
     status: maintained
+  clearpath_microhard_gateway:
+    release:
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/clearpath_microhard_gateway-gbp.git
+      version: 0.0.1-1
+    status: maintained
   clearpath_msgs:
     doc:
       type: git
