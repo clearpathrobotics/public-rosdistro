@@ -553,6 +553,31 @@ repositories:
       url: https://github.com/husky/husky.git
       version: noetic-devel
     status: maintained
+  husky_observer:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/husky_observer.git
+      version: devel
+    release:
+      packages:
+      - husky_observer
+      - husky_observer_bringup
+      - husky_observer_diagnostics
+      - husky_observer_disk_mgmt
+      - husky_observer_disk_mgmt_msgs
+      - husky_observer_power_mgmt
+      - husky_observer_safety_alarm
+      - husky_observer_stack_light
+      - husky_observer_tests
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/husky_observer-release.git
+      version: 0.0.2-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/husky_observer.git
+      version: devel
+    status: developed
   husky_robot:
     doc:
       type: git
