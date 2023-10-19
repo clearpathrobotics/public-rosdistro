@@ -757,12 +757,13 @@ repositories:
     release:
       packages:
       - axis_ptz_action_server
+      - flir_ptu_action_server
       - ptz_action_server_msgs
       - simulated_ptz_action_server
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/ptz_action_server-release.git
-      version: 0.1.4-1
+      version: 0.1.5-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/ptz_action_server.git
