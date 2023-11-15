@@ -19,10 +19,14 @@ repositories:
       url: https://github.com/ros-drivers/axis_camera.git
       version: noetic-devel
     release:
+      packages:
+      - axis_camera
+      - axis_description
+      - axis_msgs
       tags:
         release: release/noetic/{package}/{version}
       url: https://github.com/clearpath-gbp/axis_camera-release.git
-      version: 0.4.8-1
+      version: 0.5.0-1
     source:
       type: git
       url: https://github.com/ros-drivers/axis_camera.git
