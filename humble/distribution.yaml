@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  canfestival_ros:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: ros2
+    release:
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/canfestival_ros-gbp.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: ros2
+    status: maintained
   clearpath_common:
     doc:
       type: git
