@@ -193,6 +193,24 @@ repositories:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/serial-release.git
       version: 2.0.0-1
+  sevcon_ros:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: ros2
+    release:
+      packages:
+      - sevcon_ros
+      - sevcon_traction
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/sevcon_ros-gbp.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: ros2
+    status: maintained
   umx_driver:
     release:
       tags:
