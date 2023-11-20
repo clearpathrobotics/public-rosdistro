@@ -613,7 +613,7 @@ repositories:
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/husky_observer-release.git
-      version: 0.0.12-1
+      version: 0.0.13-1
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/research/husky_observer.git
