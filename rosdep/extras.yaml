@@ -18,7 +18,7 @@ libopenexr:
     ubuntu: libopenexr-dev
 openocd:
   ubuntu: openocd
-python:
+python2-minimal:
   ubuntu:
     jammy: python2-minimal
 python-cffi:
