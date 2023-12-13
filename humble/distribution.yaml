@@ -119,13 +119,14 @@ repositories:
       version: main
     release:
       packages:
+      - clearpath_diagnostics
       - clearpath_generator_robot
       - clearpath_robot
       - clearpath_sensors
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_robot-release.git
-      version: 0.1.3-1
+      version: 0.2.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_robot.git
