@@ -1,4 +1,4 @@
-canfestival-ros:
+canfestival_ros:
   ubuntu: ros-humble-canfestival-ros 
 clearpath_robot:
   ubuntu: ros-humble-clearpath-robot
