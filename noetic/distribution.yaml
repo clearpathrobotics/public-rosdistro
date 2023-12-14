@@ -609,11 +609,12 @@ repositories:
       - husky_observer_power_mgmt
       - husky_observer_safety_alarm
       - husky_observer_stack_light
+      - husky_observer_teleop
       - husky_observer_tests
       tags:
         release: release/noetic/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/husky_observer-release.git
-      version: 0.0.14-1
+      version: 0.0.15-1
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/research/husky_observer.git
