@@ -25,6 +25,8 @@ python-cffi:
   ubuntu: python-cffi
 python-prompt-toolkit:
   ubuntu: python-prompt-toolkit
+python3-simple-term-menu:
+  ubuntu: python3-simple-term-menu
 python3-tftpy:
   ubuntu: python3-tftpy
 pyuavcan-v0:
