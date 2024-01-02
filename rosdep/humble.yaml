@@ -1,5 +1,7 @@
 canfestival_ros:
-  ubuntu: ros-humble-canfestival-ros 
+  ubuntu: ros-humble-canfestival-ros
+clearpath_firmware:
+  ubuntu: ros-humble-clearpath-firmware
 clearpath_robot:
   ubuntu: ros-humble-clearpath-robot
 jackal_firmware:
