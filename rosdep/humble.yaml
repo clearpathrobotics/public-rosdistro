@@ -12,5 +12,7 @@ nmea_navsat_driver:
   ubuntu: ros-humble-nmea-navsat-driver
 serial:
   ubuntu: ros-humble-serial
+sevcon_traction:
+  ubuntu: ros-humble-sevcon-traction
 umx_driver:
   ubuntu: ros-humble-umx-driver
