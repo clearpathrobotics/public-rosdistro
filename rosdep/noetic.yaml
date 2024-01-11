@@ -10,6 +10,8 @@ jackal_tests:
   ubuntu: ros-noetic-jackal-tests
 libmscl:
   ubuntu: c++-mscl
+onav_cli:
+  ubuntu: python3-onav-cli
 ridgeback_firmware:
   ubuntu: ros-noetic-ridgeback-firmware
 ridgeback_tests:
