@@ -759,6 +759,24 @@ repositories:
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
       version: 0.0.8-2
     status: maintained
+  nav_mode_switcher:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/nav_mode_switcher.git
+      version: noetic-devel
+    release:
+      packages:
+      - nav_mode_switcher
+      - nav_mode_switcher_msgs
+      tags:
+        release: release/noetic/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/nav_mode_switcher-release.git
+      version: 0.0.1-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/nav_mode_switcher.git
+      version: noetic-devel
+    status: developed
   numato_relay:
     doc:
       type: git
