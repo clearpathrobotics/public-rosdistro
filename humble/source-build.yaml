@@ -11,13 +11,11 @@ targets:
     apt_mirrors:
     - http://localhost/building/ubuntu DISTRO main
     - http://packages.ros.org/ros/ubuntu DISTRO main
-    - http://repo.vulcanexus.org/debian DISTRO main DISTRO main
     - http://archive.ubuntu.com/ubuntu DISTRO main universe
     - http://archive.ubuntu.com/ubuntu DISTRO-updates main universe
     apt_keys:
     - http://localhost/public.key
     - http://packages.ros.org/ros.key
-    - https://github.com/eProsima/vulcanexus/raw/main/vulcanexus.key
   ubuntu:
     jammy:
       amd64:
