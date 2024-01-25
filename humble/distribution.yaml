@@ -219,6 +219,10 @@ repositories:
       url: https://github.com/ros-drivers-gbp/um7-release.git
       version: 1.0.1-3
   valence_bms:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: main
     release:
       packages:
       - valence_bms_driver
@@ -226,7 +230,11 @@ repositories:
       tags:
         release: release/humble/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/valence_bms-gbp.git
-      version: 1.0.0-1
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: main
     status: maintained
   wireless:
     doc:
