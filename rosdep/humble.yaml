@@ -16,3 +16,7 @@ sevcon_traction:
   ubuntu: ros-humble-sevcon-traction
 umx_driver:
   ubuntu: ros-humble-umx-driver
+valence_bms_driver:
+  ubuntu: ros-humble-valence-bms-driver
+valence_bms_msgs:
+  ubuntu: ros-humble-valence-bms-msgs
