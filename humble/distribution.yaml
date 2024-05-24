@@ -6,6 +6,25 @@ release_platforms:
   ubuntu:
   - jammy
 repositories:
+  axis_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: humble-devel
+    release:
+      packages:
+      - axis_camera
+      - axis_description
+      - axis_msgs
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/axis_camera-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: humble-devel
+    status: developed
   camera_info_manager_py:
     doc:
       type: git
