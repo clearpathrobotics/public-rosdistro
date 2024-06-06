@@ -7,7 +7,7 @@ clearpath_api_examples:
 command_control_msgs:
   ubuntu: ros-galactic-command-control-msgs
 command_control_msgs_utils:
-  ubuntu: ros-galactic-command-control-msg-utils
+  ubuntu: ros-galactic-command-control-msgs-utils
 configuration_msgs:
   ubuntu: ros-galactic-configuration-msgs
 data_msgs:
