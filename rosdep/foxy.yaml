@@ -1,2 +1,34 @@
+appliance_control_msgs:
+  ubuntu: ros-foxy-appliance-control-msgs
+clearpath_api:
+  ubuntu: ros-foxy-clearpath-api
+clearpath_api_examples:
+  ubuntu: ros-foxy-clearpath-api-examples
+command_control_msgs:
+  ubuntu: ros-foxy-command-control-msgs
+command_control_msgs_utils:
+  ubuntu: ros-foxy-command-control-msg-utils
+configuration_msgs:
+  ubuntu: ros-foxy-configuration-msgs
+data_msgs:
+  ubuntu: ros-foxy-data-msgs
+diagnostic_extra_msgs:
+  ubuntu: ros-foxy-diagnostic-extra-msgs
 firmware_components:
   ubuntu: ros-foxy-firmware-components
+geometry_extra_msgs:
+  ubuntu: ros-foxy-geometry-extra-msgs
+maintenance_msgs:
+  ubuntu: ros-foxy-maintenance-msgs
+onboard_systems_msgs:
+  ubuntu: ros-foxy-onboard-systems-msgs
+os_msgs:
+  ubuntu: ros-foxy-os-msgs
+perception_navigation_msgs:
+  ubuntu: ros-foxy-perception-navigation-msgs
+platform_sensor_msgs:
+  ubuntu: ros-foxy-platform-sensor-msgs
+sensor_extra_msgs:
+  ubuntu: ros-foxy-sensor-extra-msgs
+std_extra_srvs:
+  ubuntu: ros-foxy-std-extra-srvs
