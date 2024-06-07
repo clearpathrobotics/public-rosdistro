@@ -1,51 +1,51 @@
 appliance_control_msgs:
-  ubuntu: ros-galactic-appliance-control-msgs
+  ubuntu: ros-humble-appliance-control-msgs
 canfestival_ros:
   ubuntu: ros-humble-canfestival-ros
 clearpath_api:
-  ubuntu: ros-galactic-clearpath-api
+  ubuntu: ros-humble-clearpath-api
 clearpath_api_examples:
-  ubuntu: ros-galactic-clearpath-api-examples
+  ubuntu: ros-humble-clearpath-api-examples
 clearpath_firmware:
   ubuntu: ros-humble-clearpath-firmware
 clearpath_robot:
   ubuntu: ros-humble-clearpath-robot
 command_control_msgs:
-  ubuntu: ros-galactic-command-control-msgs
+  ubuntu: ros-humble-command-control-msgs
 command_control_msgs_utils:
-  ubuntu: ros-galactic-command-control-msgs-utils
+  ubuntu: ros-humble-command-control-msgs-utils
 configuration_msgs:
-  ubuntu: ros-galactic-configuration-msgs
+  ubuntu: ros-humble-configuration-msgs
 data_msgs:
-  ubuntu: ros-galactic-data-msgs
+  ubuntu: ros-humble-data-msgs
 diagnostic_extra_msgs:
-  ubuntu: ros-galactic-diagnostic-extra-msgs
+  ubuntu: ros-humble-diagnostic-extra-msgs
 geometry_extra_msgs:
-  ubuntu: ros-galactic-geometry-extra-msgs
+  ubuntu: ros-humble-geometry-extra-msgs
 jackal_firmware:
   ubuntu: ros-humble-jackal-firmware
 maintenance_msgs:
-  ubuntu: ros-galactic-maintenance-msgs
+  ubuntu: ros-humble-maintenance-msgs
 micro_ros_agent:
   ubuntu: ros-humble-micro-ros-agent
 nmea_navsat_driver:
   ubuntu: ros-humble-nmea-navsat-driver
 onboard_systems_msgs:
-  ubuntu: ros-galactic-onboard-systems-msgs
+  ubuntu: ros-humble-onboard-systems-msgs
 os_msgs:
-  ubuntu: ros-galactic-os-msgs
+  ubuntu: ros-humble-os-msgs
 perception_navigation_msgs:
-  ubuntu: ros-galactic-perception-navigation-msgs
+  ubuntu: ros-humble-perception-navigation-msgs
 platform_sensor_msgs:
-  ubuntu: ros-galactic-platform-sensor-msgs
+  ubuntu: ros-humble-platform-sensor-msgs
 sensor_extra_msgs:
-  ubuntu: ros-galactic-sensor-extra-msgs
+  ubuntu: ros-humble-sensor-extra-msgs
 serial:
   ubuntu: ros-humble-serial
 sevcon_traction:
   ubuntu: ros-humble-sevcon-traction
 std_extra_srvs:
-  ubuntu: ros-galactic-std-extra-srvs
+  ubuntu: ros-humble-std-extra-srvs
 umx_driver:
   ubuntu: ros-humble-umx-driver
 valence_bms_driver:
