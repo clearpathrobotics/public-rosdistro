@@ -45,6 +45,12 @@ distributions:
     distribution_status: active
     distribution_type: ros2
     python_version: 3
+  jazzy:
+    distribution: [jazzy/distribution.yaml]
+    distribution_cache: http://prod-vm-build-pub-repo-02/rosdistro_cache/jazzy-cache.yaml.gz
+    distribution_status: active
+    distribution_type: ros2
+    python_version: 3
     
 type: index
 version: 4
