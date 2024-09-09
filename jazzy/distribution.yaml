@@ -6,5 +6,20 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  simple_term_menu_vendor:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/simple-term-menu.git
+      version: humble
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/simple_term_menu_vendor-release.git
+      version: 1.5.7-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/simple-term-menu.git
+      version: humble
+    status: developed
 type: distribution
 version: 1
