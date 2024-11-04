@@ -6,6 +6,24 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  clearpath_msgs:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: humble
+    release:
+      packages:
+      - clearpath_msgs
+      - clearpath_platform_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_msgs-release.git
+      version: 1.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_msgs.git
+      version: humble
+    status: maintained
   simple_term_menu_vendor:
     doc:
       type: git
