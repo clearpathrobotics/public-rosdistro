@@ -38,6 +38,10 @@ perception_navigation_msgs:
   ubuntu: ros-humble-perception-navigation-msgs
 platform_sensor_msgs:
   ubuntu: ros-humble-platform-sensor-msgs
+puma_motor_msgs:
+  ubuntu: ros-humble-puma-motor-msgs
+puma_motor_driver:
+  ubuntu: ros-humble-puma-motor-driver
 sensor_extra_msgs:
   ubuntu: ros-humble-sensor-extra-msgs
 serial:
