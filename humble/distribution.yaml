@@ -268,25 +268,6 @@ repositories:
       url: https://github.com/clearpathrobotics/ptz_action_server.git
       version: ros2
     status: developed
-  puma_motor_driver:
-    doc:
-      type: git
-      url: https://github.com/clearpathrobotics/puma_motor_driver.git
-      version: foxy-devel
-    release:
-      packages:
-      - clearpath_socketcan_interface
-      - puma_motor_driver
-      - puma_motor_msgs
-      tags:
-        release: release/humble/{package}/{version}
-      url: https://github.com/clearpath-gbp/puma_motor_driver-release.git
-      version: 1.0.1-1
-    source:
-      type: git
-      url: https://github.com/clearpathrobotics/puma_motor_driver.git
-      version: foxy-devel
-    status: maintained
   serial:
     release:
       tags:
