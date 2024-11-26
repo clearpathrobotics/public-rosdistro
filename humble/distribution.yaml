@@ -160,12 +160,14 @@ repositories:
       packages:
       - clearpath_diagnostics
       - clearpath_generator_robot
+      - clearpath_hardware_interfaces
       - clearpath_robot
       - clearpath_sensors
+      - puma_motor_driver
       tags:
         release: release/humble/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_robot-release.git
-      version: 0.3.2-1
+      version: 1.0.0-2
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_robot.git
