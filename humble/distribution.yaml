@@ -207,6 +207,27 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
       version: main
     status: developed
+  ewellix_lift:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift.git
+      version: humble
+    release:
+      packages:
+      - ewellix_description
+      - ewellix_driver
+      - ewellix_examples
+      - ewellix_interfaces
+      - ewellix_moveit_config
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/ewellix_lift-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift.git
+      version: humble
+    status: developed
   flir_camera_driver:
     doc:
       type: git
