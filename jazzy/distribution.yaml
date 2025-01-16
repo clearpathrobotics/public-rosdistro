@@ -82,6 +82,12 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
       version: jazzy
     status: maintained
+  micro_ros_agent:
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/micro-ROS-Agent-release.git
+      version: 5.0.3-1
   serial:
     doc:
       type: git
