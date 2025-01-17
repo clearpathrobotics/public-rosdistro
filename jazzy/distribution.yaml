@@ -118,6 +118,21 @@ repositories:
       url: https://github.com/clearpathrobotics/simple-term-menu.git
       version: humble
     status: developed
+  umx_driver:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/um7.git
+      version: ros2
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/ros-drivers-gbp/um7-release.git
+      version: 1.0.1-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/um7.git
+      version: ros2
+    status: maintained
   wireless:
     doc:
       type: git
