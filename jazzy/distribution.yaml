@@ -67,6 +67,29 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_msgs.git
       version: humble
     status: maintained
+  clearpath_robot:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_robot.git
+      version: jazzy
+    release:
+      packages:
+      - clearpath_diagnostics
+      - clearpath_generator_robot
+      - clearpath_hardware_interfaces
+      - clearpath_robot
+      - clearpath_sensors
+      - lynx_motor_driver
+      - puma_motor_driver
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/clearpath_robot-release.git
+      version: 2.0.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/clearpath_robot.git
+      version: jazzy
+    status: maintained
   clearpath_ros2_socketcan_interface:
     doc:
       type: git
