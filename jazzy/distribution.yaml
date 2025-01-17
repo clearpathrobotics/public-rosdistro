@@ -118,5 +118,23 @@ repositories:
       url: https://github.com/clearpathrobotics/simple-term-menu.git
       version: humble
     status: developed
+  wireless:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: jazzy
+    release:
+      packages:
+      - wireless_msgs
+      - wireless_watcher
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/wireless-release.git
+      version: 1.1.2-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wireless.git
+      version: jazzy
+    status: maintained
 type: distribution
 version: 1
