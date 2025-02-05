@@ -15,7 +15,7 @@ gdb-arm-none-eabi:
 gdb-multiarch:
   ubuntu: gdb-multiarch
 libopenexr:
-    ubuntu: libopenexr-dev
+  ubuntu: libopenexr-dev
 openocd:
   ubuntu: openocd
 python2-minimal:
@@ -25,6 +25,8 @@ python-cffi:
   ubuntu: python-cffi
 python-prompt-toolkit:
   ubuntu: python-prompt-toolkit
+python3-canopen:
+  ubuntu: python3-canopen
 python3-simple-term-menu:
   ubuntu: python3-simple-term-menu
 python3-tftpy:
