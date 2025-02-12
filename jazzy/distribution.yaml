@@ -140,6 +140,23 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_ros2_socketcan_interface.git
       version: jazzy
     status: maintained
+  inventus_bms:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/inventus_bmu.git
+      version: jazzy
+    release:
+      packages:
+      - inventus_bmu
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/inventus_bmu-gbp.git
+      version: 3.0.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/inventus_bmu.git
+      version: jazzy
+    status: maintained
   micro_ros_agent:
     release:
       tags:
