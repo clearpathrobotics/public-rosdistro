@@ -174,7 +174,7 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_tests.git
       version: jazzy
     status: maintained
-  inventus_bms:
+  inventus_bmu:
     doc:
       type: git
       url: https://gitlab.clearpathrobotics.com/research/inventus_bmu.git
