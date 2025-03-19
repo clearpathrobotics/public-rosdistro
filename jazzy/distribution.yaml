@@ -180,12 +180,10 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/research/inventus_bmu.git
       version: jazzy
     release:
-      packages:
-      - inventus_bmu
       tags:
         release: release/jazzy/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/inventus_bmu-gbp.git
-      version: 3.0.1-1
+      version: 3.0.2-1
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/research/inventus_bmu.git
