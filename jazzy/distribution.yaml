@@ -240,6 +240,24 @@ repositories:
       url: https://github.com/ros-drivers/um7.git
       version: ros2
     status: maintained
+  wiferion_charger:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/wiferion_charger.git
+      version: jazzy
+    release:
+      packages:
+      - wiferion_charger
+      - wiferion_interfaces
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/wiferion_charger-release.git
+      version: 2.3.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/wiferion_charger.git
+      version: jazzy
+    status: maintained
   wireless:
     doc:
       type: git
