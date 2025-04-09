@@ -1,2 +1,6 @@
 clearpath_msgs:
   ubuntu: ros-jazzy-clearpath-msgs
+wiferion_charger:
+  ubuntu: ros-jazzy-wiferion-charger
+wiferion_interfaces:
+  ubuntu: ros-jazzy-wiferion-interfaces
