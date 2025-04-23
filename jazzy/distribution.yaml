@@ -240,6 +240,26 @@ repositories:
       url: https://github.com/ros-drivers/um7.git
       version: ros2
     status: maintained
+  video_recorder:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/video_recorder.git
+      version: jazzy-devel
+    release:
+      packages:
+      - audio_recorder
+      - audio_recorder_msgs
+      - video_recorder
+      - video_recorder_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/video_recorder-release.git
+      version: 2.0.1-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/video_recorder.git
+      version: jazzy-devel
+    status: maintained
   wiferion_charger:
     doc:
       type: git
