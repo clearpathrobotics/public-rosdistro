@@ -114,12 +114,13 @@ repositories:
       - clearpath_hardware_interfaces
       - clearpath_robot
       - clearpath_sensors
+      - clearpath_tests
       - lynx_motor_driver
       - puma_motor_driver
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_robot-release.git
-      version: 2.3.3-1
+      version: 2.4.0-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_robot.git
