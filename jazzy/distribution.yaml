@@ -6,6 +6,24 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  canopen_inventus:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/canopen_inventus.git
+      version: jazzy
+    release:
+      packages:
+      - canopen_inventus_driver
+      - canopen_inventus_interfaces
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/canopen_inventus-release.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/canopen_inventus.git
+      version: jazzy
+    status: developed
   clearpath_common:
     doc:
       type: git
