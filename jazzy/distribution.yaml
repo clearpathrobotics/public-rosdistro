@@ -214,6 +214,26 @@ repositories:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/micro-ROS-Agent-release.git
       version: 5.0.3-1
+  ros2_canopen:
+    release:
+      packages:
+      - canopen
+      - canopen_402_driver
+      - canopen_base_driver
+      - canopen_core
+      - canopen_fake_slaves
+      - canopen_interfaces
+      - canopen_master_driver
+      - canopen_proxy_driver
+      - canopen_ros2_control
+      - canopen_ros2_controllers
+      - canopen_tests
+      - canopen_utils
+      - lely_core_libraries
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpathrobotics/ros2_canopen-release.git
+      version: 0.3.1-1
   serial:
     doc:
       type: git
