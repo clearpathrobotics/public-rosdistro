@@ -142,7 +142,6 @@ repositories:
       version: jazzy
     release:
       packages:
-      - clearpath_diagnostics
       - clearpath_generator_robot
       - clearpath_hardware_interfaces
       - clearpath_robot
