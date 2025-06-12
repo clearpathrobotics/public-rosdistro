@@ -294,6 +294,24 @@ repositories:
       url: https://github.com/ros-drivers/um7.git
       version: ros2
     status: maintained
+  valence_bmu:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: main
+    release:
+      packages:
+      - valence_bms_driver
+      - valence_bms_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/valence_bms-gbp.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
+      version: main
+    status: maintained
   video_recorder:
     doc:
       type: git
