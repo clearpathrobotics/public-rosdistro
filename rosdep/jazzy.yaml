@@ -4,3 +4,7 @@ wiferion_charger:
   ubuntu: ros-jazzy-wiferion-charger
 wiferion_interfaces:
   ubuntu: ros-jazzy-wiferion-interfaces
+valence_bms_driver:
+  ubuntu: ros-jazzy-valence-bms-driver
+valence_bms_msgs:
+  ubuntu: ros-jazzy-valence-bms-msgs
