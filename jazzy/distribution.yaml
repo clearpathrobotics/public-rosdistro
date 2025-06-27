@@ -6,6 +6,21 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  canfestival_ros:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/canfestival_ros-gbp.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/research/canfestival_ros.git
+      version: jazzy
+    status: maintained
   canopen_inventus:
     doc:
       type: git
