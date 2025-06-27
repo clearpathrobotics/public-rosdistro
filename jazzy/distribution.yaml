@@ -279,6 +279,24 @@ repositories:
       url: https://github.com/clearpathrobotics/serial-ros2.git
       version: master
     status: maintained
+  sevcon_ros:
+    doc:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: jazzy
+    release:
+      packages:
+      - sevcon_ros
+      - sevcon_traction
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/sevcon_ros-gbp.git
+      version: 1.1.0-1
+    source:
+      type: git
+      url: http://gitlab.clearpathrobotics.com/research/sevcon_ros.git
+      version: jazzy
+    status: maintained
   simple_term_menu_vendor:
     doc:
       type: git
