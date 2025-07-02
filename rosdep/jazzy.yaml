@@ -1,5 +1,7 @@
 clearpath_msgs:
   ubuntu: ros-jazzy-clearpath-msgs
+sevcon_traction:
+  ubuntu: ros-jazzy-sevcon-traction
 wiferion_charger:
   ubuntu: ros-jazzy-wiferion-charger
 wiferion_interfaces:
