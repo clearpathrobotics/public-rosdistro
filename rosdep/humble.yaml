@@ -28,8 +28,6 @@ maintenance_msgs:
   ubuntu: ros-humble-maintenance-msgs
 micro_ros_agent:
   ubuntu: ros-humble-micro-ros-agent
-nmea_navsat_driver:
-  ubuntu: ros-humble-nmea-navsat-driver
 onboard_systems_msgs:
   ubuntu: ros-humble-onboard-systems-msgs
 os_msgs:
