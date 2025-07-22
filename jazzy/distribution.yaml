@@ -312,6 +312,21 @@ repositories:
       url: https://github.com/clearpathrobotics/simple-term-menu.git
       version: humble
     status: developed
+  socketcan_adapter:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/socketcan_adapter.git
+      version: jazzy
+    release:
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/socketcan_adapter-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/socketcan_adapter.git
+      version: jazzy
+    status: maintained
   umx_driver:
     doc:
       type: git
