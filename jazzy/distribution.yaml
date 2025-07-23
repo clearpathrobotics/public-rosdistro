@@ -321,7 +321,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/socketcan_adapter-release.git
-      version: 0.2.1-1
+      version: 0.2.2-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/socketcan_adapter.git
