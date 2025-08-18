@@ -1,12 +1,46 @@
-clearpath_msgs:
-  ubuntu: ros-jazzy-clearpath-msgs
+audio_recorder:
+  ubuntu: ros-jazzy-audio-recorder
+audio_recorder_msgs:
+  ubuntu: ros-jazzy-audio-recorder-msgs
+canfestival_ros:
+  ubuntu: ros-jazzy-canfestival-ros
+canopen_inventus_bringup:
+  ubuntu: ros-jazzy-canopen-inventus-bringup
+clearpath_generator_robot:
+  ubuntu: ros-jazzy-clearpath-generator-robot
+clearpath_hardware_interfaces:
+  ubuntu: ros-jazzy-clearpath-hardware-interfaces
+clearpath_robot:
+  ubuntu: ros-jazzy-clearpath-robot
+clearpath_sensors:
+  ubuntu: ros-jazzy-clearpath-sensors
+inventus_bmu:
+  ubuntu: ros-jazzy-inventus-bmu
+lynx_motor_driver:
+  ubuntu: ros-jazzy-lynx-motor-driver
+micro_ros_agent:
+  ubuntu: ros-jazzy-micro-ros-agent
+puma_motor_driver:
+  ubuntu: ros-jazzy-puma-motor-driver
+serial:
+  ubuntu: ros-jazzy-serial
+sevcon_ros:
+  ubuntu: ros-jazzy-sevcon-ros
 sevcon_traction:
   ubuntu: ros-jazzy-sevcon-traction
-wiferion_charger:
-  ubuntu: ros-jazzy-wiferion-charger
-wiferion_interfaces:
-  ubuntu: ros-jazzy-wiferion-interfaces
+socketcan_adapter:
+  ubuntu: ros-jazzy-socketcan-adapter
+umx_driver:
+  ubuntu: ros-jazzy-umx-driver
 valence_bms_driver:
   ubuntu: ros-jazzy-valence-bms-driver
 valence_bms_msgs:
   ubuntu: ros-jazzy-valence-bms-msgs
+video_recorder:
+  ubuntu: ros-jazzy-video-recorder
+video_recorder_msgs:
+  ubuntu: ros-jazzy-video-recorder-msgs
+wiferion_charger:
+  ubuntu: ros-jazzy-wiferion-charger
+wiferion_interfaces:
+  ubuntu: ros-jazzy-wiferion-interfaces
