@@ -208,6 +208,18 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
       version: jazzy
     status: maintained
+  ewellix_lift:
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift.git
+      version: jazzy
+    status: maintained
+  ewellix_lift_common:
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift_common.git
+      version: jazzy
+    status: maintained
   inventus_bmu:
     doc:
       type: git
