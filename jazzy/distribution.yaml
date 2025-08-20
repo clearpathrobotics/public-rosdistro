@@ -208,6 +208,24 @@ repositories:
       url: https://github.com/clearpathrobotics/clearpath_simulator.git
       version: jazzy
     status: maintained
+  ewellix_lift:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift.git
+      version: jazzy
+    release:
+      packages:
+      - ewellix_driver
+      - ewellix_examples
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/ewellix_lift-release.git
+      version: 0.2.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/ewellix_lift.git
+      version: jazzy
+    status: maintained
   ewellix_lift_common:
     doc:
       type: git
