@@ -14,6 +14,10 @@ clearpath_robot:
   ubuntu: ros-jazzy-clearpath-robot
 clearpath_sensors:
   ubuntu: ros-jazzy-clearpath-sensors
+ewellix_driver:
+  ubuntu: ros-jazzy-ewellix-driver
+ewellix_examples:
+  ubuntu: ros-jazzy-ewellix-examples
 inventus_bmu:
   ubuntu: ros-jazzy-inventus-bmu
 lynx_motor_driver:
