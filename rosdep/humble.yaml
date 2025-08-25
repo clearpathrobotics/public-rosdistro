@@ -20,6 +20,10 @@ data_msgs:
   ubuntu: ros-humble-data-msgs
 diagnostic_extra_msgs:
   ubuntu: ros-humble-diagnostic-extra-msgs
+ewellix_driver:
+  ubuntu: ros-humble-ewellix-driver
+ewellix_examples:
+  ubuntu: ros-humble-ewellix-examples
 geometry_extra_msgs:
   ubuntu: ros-humble-geometry-extra-msgs
 jackal_firmware:
