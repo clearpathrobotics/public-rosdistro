@@ -139,6 +139,23 @@ repositories:
       url: https://gitlab.clearpathrobotics.com/platform/clearpath_hal.git
       version: jazzy
     status: developed
+  clearpath_hal_devices:
+    doc:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/platform/clearpath_hal_devices.git
+      version: jazzy
+    release:
+      packages:
+      - sevcon_hardware
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://gitlab.clearpathrobotics.com/gbp/clearpath_hal_devices-gbp.git
+      version: 0.1.0-1
+    source:
+      type: git
+      url: https://gitlab.clearpathrobotics.com/platform/clearpath_hal_devices.git
+      version: jazzy
+    status: developed
   clearpath_msgs:
     doc:
       type: git
