@@ -2,6 +2,8 @@ audio_recorder:
   ubuntu: ros-jazzy-audio-recorder
 audio_recorder_msgs:
   ubuntu: ros-jazzy-audio-recorder-msgs
+can_hardware:
+  ubuntu: ros-jazzy-can-hardware
 canfestival_ros:
   ubuntu: ros-jazzy-canfestival-ros
 canopen_inventus_bringup:
