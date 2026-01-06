@@ -130,11 +130,12 @@ repositories:
       - hal_launch
       - hal_signal_interface
       - hal_signal_manager
+      - modbus_hardware
       - serial_hardware
       tags:
         release: release/jazzy/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/clearpath_hal-gbp.git
-      version: 0.1.1-1
+      version: 0.1.2-1
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/platform/clearpath_hal.git
