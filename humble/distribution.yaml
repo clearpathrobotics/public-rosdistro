@@ -287,6 +287,24 @@ repositories:
         release: release/humble/{package}/{version}
       url: http://gitlab.clearpathrobotics.com/gbp/microhard_snmp-gbp.git
       version: 1.0.0-1
+  numato_relay:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/numato_relay.git
+      version: main
+    release:
+      packages:
+      - numato_relay
+      - numato_relay_interfaces
+      tags:
+        release: release/humble/{package}/{version}
+      url: https://github.com/clearpath-gbp/numato_relay-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/numato_relay.git
+      version: main
+    status: maintained
   ptz_action_server:
     doc:
       type: git
