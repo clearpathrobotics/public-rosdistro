@@ -325,6 +325,24 @@ repositories:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/micro-ROS-Agent-release.git
       version: 5.0.3-1
+  numato_relay:
+    doc:
+      type: git
+      url: https://github.com/clearpathrobotics/numato_relay.git
+      version: main
+    release:
+      packages:
+      - numato_relay
+      - numato_relay_interfaces
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/numato_relay-release.git
+      version: 0.3.0-1
+    source:
+      type: git
+      url: https://github.com/clearpathrobotics/numato_relay.git
+      version: main
+    status: maintained
   peplink_router_driver:
     doc:
       type: git
