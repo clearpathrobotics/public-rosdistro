@@ -8,6 +8,8 @@ canfestival_ros:
   ubuntu: ros-jazzy-canfestival-ros
 canopen_inventus_bringup:
   ubuntu: ros-jazzy-canopen-inventus-bringup
+clearpath_firmware:
+  ubuntu: ros-jazzy-clearpath-firmware
 clearpath_generator_robot:
   ubuntu: ros-jazzy-clearpath-generator-robot
 clearpath_hardware_interfaces:
