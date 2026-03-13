@@ -30,6 +30,8 @@ micro_ros_agent:
   ubuntu: ros-jazzy-micro-ros-agent
 puma_motor_driver:
   ubuntu: ros-jazzy-puma-motor-driver
+proton_ros2:
+  ubuntu: ros-jazzy-proton-ros2
 serial:
   ubuntu: ros-jazzy-serial
 sevcon_ros:
