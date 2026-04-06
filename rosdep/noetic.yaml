@@ -1,3 +1,9 @@
+boxer_control:
+  ubuntu: ros-noetic-boxer-control
+boxer_description:
+  ubuntu: ros-noetic-boxer-description
+boxer_msgs:
+  ubuntu: ros-noetic-boxer-msgs
 clearpath_api:
   ubuntu: clearpath-api
 firmware_components:
@@ -24,6 +30,8 @@ warthog_robot:
   ubuntu: ros-noetic-warthog-robot
 warthog_tests:
   ubuntu: ros-noetic-warthog-tests
+wireless_watcher:
+  ubuntu: ros-noetic-wireless-watcher
 # ROS2 dependencies needed for Boxer 2.4
 foxy_ros_base:
   ubuntu: ros-foxy-ros-base
