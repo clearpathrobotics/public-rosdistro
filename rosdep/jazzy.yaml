@@ -28,6 +28,8 @@ lynx_motor_driver:
   ubuntu: ros-jazzy-lynx-motor-driver
 micro_ros_agent:
   ubuntu: ros-jazzy-micro-ros-agent
+peplink_router_driver:
+  ubuntu: ros-jazzy-peplink-router-driver
 puma_motor_driver:
   ubuntu: ros-jazzy-puma-motor-driver
 proton_ros2:
