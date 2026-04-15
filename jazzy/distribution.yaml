@@ -61,6 +61,7 @@ repositories:
       version: jazzy
     release:
       packages:
+      - clearpath_bms_broadcaster
       - clearpath_bt_joy
       - clearpath_common
       - clearpath_control
@@ -76,7 +77,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/clearpath_common-release.git
-      version: 2.9.5-1
+      version: 2.9.6-1
     source:
       type: git
       url: https://github.com/clearpathrobotics/clearpath_common.git
