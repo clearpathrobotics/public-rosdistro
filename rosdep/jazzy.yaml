@@ -6,40 +6,164 @@ can_hardware:
   ubuntu: ros-jazzy-can-hardware
 canfestival_ros:
   ubuntu: ros-jazzy-canfestival-ros
+canopen:
+  ubuntu: ros-jazzy-canopen
+canopen_402_driver:
+  ubuntu: ros-jazzy-canopen-402-driver
+canopen_base_driver:
+  ubuntu: ros-jazzy-canopen-base-driver
+canopen_core:
+  ubuntu: ros-jazzy-canopen-core
+canopen_fake_slaves:
+  ubuntu: ros-jazzy-canopen-fake-slaves
+canopen_interfaces:
+  ubuntu: ros-jazzy-canopen-interfaces
 canopen_inventus_bringup:
   ubuntu: ros-jazzy-canopen-inventus-bringup
+canopen_inventus_driver:
+  ubuntu: ros-jazzy-canopen-inventus-driver
+canopen_inventus_interfaces:
+  ubuntu: ros-jazzy-canopen-inventus-interfaces
+canopen_master_driver:
+  ubuntu: ros-jazzy-canopen-master-driver
+canopen_motor_hardware:
+  ubuntu: ros-jazzy-canopen-motor-hardware
+canopen_proxy_driver:
+  ubuntu: ros-jazzy-canopen-proxy-driver
+canopen_ros2_control:
+  ubuntu: ros-jazzy-canopen-ros2-control
+canopen_ros2_controllers:
+  ubuntu: ros-jazzy-canopen-ros2-controllers
+canopen_tests:
+  ubuntu: ros-jazzy-canopen-tests
+canopen_utils:
+  ubuntu: ros-jazzy-canopen-utils
+clearpath_bms_broadcaster:
+  ubuntu: ros-jazzy-clearpath-bms-broadcaster
+clearpath_bt_joy:
+  ubuntu: ros-jazzy-clearpath-bt-joy
+clearpath_common:
+  ubuntu: ros-jazzy-clearpath-common
+clearpath_config:
+  ubuntu: ros-jazzy-clearpath-config
+clearpath_config_live:
+  ubuntu: ros-jazzy-clearpath-config-live
+clearpath_control:
+  ubuntu: ros-jazzy-clearpath-control
+clearpath_customization:
+  ubuntu: ros-jazzy-clearpath-customization
+clearpath_description:
+  ubuntu: ros-jazzy-clearpath-description
+clearpath_desktop:
+  ubuntu: ros-jazzy-clearpath-desktop
+clearpath_diagnostics:
+  ubuntu: ros-jazzy-clearpath-diagnostics
 clearpath_firmware:
   ubuntu: ros-jazzy-clearpath-firmware
+clearpath_generator_common:
+  ubuntu: ros-jazzy-clearpath-generator-common
+clearpath_generator_gz:
+  ubuntu: ros-jazzy-clearpath-generator-gz
 clearpath_generator_robot:
   ubuntu: ros-jazzy-clearpath-generator-robot
+clearpath_gz:
+  ubuntu: ros-jazzy-clearpath-gz
 clearpath_hardware_interfaces:
   ubuntu: ros-jazzy-clearpath-hardware-interfaces
+clearpath_manipulators:
+  ubuntu: ros-jazzy-clearpath-manipulators
+clearpath_manipulators_description:
+  ubuntu: ros-jazzy-clearpath-manipulators-description
+clearpath_motor_msgs:
+  ubuntu: ros-jazzy-clearpath-motor-msgs
+clearpath_mounts_description:
+  ubuntu: ros-jazzy-clearpath-mounts-description
+clearpath_msgs:
+  ubuntu: ros-jazzy-clearpath-msgs
+clearpath_nav2_demos:
+  ubuntu: ros-jazzy-clearpath-nav2-demos
+clearpath_offboard_sensors:
+  ubuntu: ros-jazzy-clearpath-offboard-sensors
+clearpath_platform_description:
+  ubuntu: ros-jazzy-clearpath-platform-description
+clearpath_platform_msgs:
+  ubuntu: ros-jazzy-clearpath-platform-msgs
 clearpath_robot:
   ubuntu: ros-jazzy-clearpath-robot
+clearpath_ros2_socketcan_interface:
+  ubuntu: ros-jazzy-clearpath-ros2-socketcan-interface
 clearpath_sensors:
   ubuntu: ros-jazzy-clearpath-sensors
+clearpath_sensors_description:
+  ubuntu: ros-jazzy-clearpath-sensors-description
+clearpath_simulator:
+  ubuntu: ros-jazzy-clearpath-simulator
+clearpath_tests:
+  ubuntu: ros-jazzy-clearpath-tests
+clearpath_viz:
+  ubuntu: ros-jazzy-clearpath-viz
+ewellix_description:
+  ubuntu: ros-jazzy-ewellix-description
 ewellix_driver:
   ubuntu: ros-jazzy-ewellix-driver
 ewellix_examples:
   ubuntu: ros-jazzy-ewellix-examples
+ewellix_interfaces:
+  ubuntu: ros-jazzy-ewellix-interfaces
+ewellix_lift_common:
+  ubuntu: ros-jazzy-ewellix-lift-common
+ewellix_moveit_config:
+  ubuntu: ros-jazzy-ewellix-moveit-config
+ewellix_sim:
+  ubuntu: ros-jazzy-ewellix-sim
+ewellix_viz:
+  ubuntu: ros-jazzy-ewellix-viz
+hal_components:
+  ubuntu: ros-jazzy-hal-components
+hal_launch:
+  ubuntu: ros-jazzy-hal-launch
+hal_signal_interface:
+  ubuntu: ros-jazzy-hal-signal-interface
+hal_signal_manager:
+  ubuntu: ros-jazzy-hal-signal-manager
 inventus_bmu:
   ubuntu: ros-jazzy-inventus-bmu
+lely_core_libraries:
+  ubuntu: ros-jazzy-lely-core-libraries
+lms1xx:
+  ubuntu: ros-jazzy-lms1xx
 lynx_motor_driver:
   ubuntu: ros-jazzy-lynx-motor-driver
 micro_ros_agent:
   ubuntu: ros-jazzy-micro-ros-agent
+modbus_hardware:
+  ubuntu: ros-jazzy-modbus-hardware
+numato_relay:
+  ubuntu: ros-jazzy-numato-relay
+numato_relay_interfaces:
+  ubuntu: ros-jazzy-numato-relay-interfaces
+peplink_msgs:
+  ubuntu: ros-jazzy-peplink-msgs
 peplink_router_driver:
   ubuntu: ros-jazzy-peplink-router-driver
-puma_motor_driver:
-  ubuntu: ros-jazzy-puma-motor-driver
 proton_ros2:
   ubuntu: ros-jazzy-proton-ros2
+proton_vendor:
+  ubuntu: ros-jazzy-proton-vendor
+puma_motor_driver:
+  ubuntu: ros-jazzy-puma-motor-driver
 serial:
   ubuntu: ros-jazzy-serial
+serial_hardware:
+  ubuntu: ros-jazzy-serial-hardware
+sevcon_hardware:
+  ubuntu: ros-jazzy-sevcon-hardware
 sevcon_ros:
   ubuntu: ros-jazzy-sevcon-ros
 sevcon_traction:
   ubuntu: ros-jazzy-sevcon-traction
+simple_term_menu_vendor:
+  ubuntu: ros-jazzy-simple-term-menu-vendor
 socketcan_adapter:
   ubuntu: ros-jazzy-socketcan-adapter
 umx_driver:
@@ -56,3 +180,7 @@ wiferion_charger:
   ubuntu: ros-jazzy-wiferion-charger
 wiferion_interfaces:
   ubuntu: ros-jazzy-wiferion-interfaces
+wireless_msgs:
+  ubuntu: ros-jazzy-wireless-msgs
+wireless_watcher:
+  ubuntu: ros-jazzy-wireless-watcher
