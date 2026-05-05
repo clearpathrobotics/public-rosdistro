@@ -118,6 +118,12 @@ ewellix_sim:
   ubuntu: ros-jazzy-ewellix-sim
 ewellix_viz:
   ubuntu: ros-jazzy-ewellix-viz
+flir_ptu_description:
+  ubuntu: ros-jazzy-flir-ptu-description
+flir_ptu_driver:
+  ubuntu: ros-jazzy-flir-ptu-driver
+flir_ptu_viz:
+  ubuntu: ros-jazzy-flir-ptu-viz
 hal_components:
   ubuntu: ros-jazzy-hal-components
 hal_launch:
