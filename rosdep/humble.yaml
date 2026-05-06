@@ -24,6 +24,12 @@ ewellix_driver:
   ubuntu: ros-humble-ewellix-driver
 ewellix_examples:
   ubuntu: ros-humble-ewellix-examples
+flir_ptu_description:
+  ubuntu: ros-humble-flir-ptu-description
+flir_ptu_driver:
+  ubuntu: ros-humble-flir-ptu-driver
+flir_ptu_viz:
+  ubuntu: ros-humble-flir-ptu-viz
 geometry_extra_msgs:
   ubuntu: ros-humble-geometry-extra-msgs
 jackal_firmware:
