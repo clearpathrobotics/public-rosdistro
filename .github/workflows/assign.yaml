@@ -1,0 +1,26 @@
+name: Assign new PRs and issues
+
+on:
+  pull_request_target:
+    types: [opened]
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          assignees=$(grep -oE '@[A-Za-z0-9-]+' .github/CODEOWNERS | tr -d '@' | sort -u | paste -sd,)
+          if [ "${{ github.event_name }}" = "issues" ]; then
+            gh issue edit "${{ github.event.issue.number }}" --add-assignee "$assignees"
+          else
+            gh pr edit "${{ github.event.pull_request.number }}" --add-assignee "$assignees"
+          fi

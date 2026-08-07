@@ -1,0 +1,29 @@
+name: rosdistro
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - run: pip install rosdistro
+      - name: Validate index and distribution files
+        run: |
+          python - <<'EOF'
+          import os
+          from rosdistro import get_index, get_distribution
+
+          url = 'file://' + os.path.abspath('index-v4.yaml')
+          index = get_index(url)
+          for name in index.distributions:
+              print(f'Validating {name}...')
+              get_distribution(index, name)
+          print('All distributions loaded successfully.')
+          EOF

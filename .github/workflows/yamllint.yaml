@@ -1,0 +1,14 @@
+name: yamllint
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+
+jobs:
+  yamllint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: pipx install yamllint
+      - run: yamllint .

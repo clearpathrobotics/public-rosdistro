@@ -1,0 +1,9 @@
+extends: relaxed
+
+rules:
+  line-length: disable
+  trailing-spaces: disable
+  empty-lines: disable
+  comments: disable
+  document-start: disable
+  key-duplicates: enable
