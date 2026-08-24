@@ -172,6 +172,9 @@ simple_term_menu_vendor:
   ubuntu: ros-jazzy-simple-term-menu-vendor
 socketcan_adapter:
   ubuntu: ros-jazzy-socketcan-adapter
+sol2:
+  ubuntu:
+    noble: sol2-dev
 umx_driver:
   ubuntu: ros-jazzy-umx-driver
 valence_bms_driver:
