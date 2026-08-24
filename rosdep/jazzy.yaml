@@ -138,6 +138,9 @@ lely_core_libraries:
   ubuntu: ros-jazzy-lely-core-libraries
 lms1xx:
   ubuntu: ros-jazzy-lms1xx
+lua5.3-dev:
+  ubuntu:
+    noble: liblua5.3-dev
 lynx_motor_driver:
   ubuntu: ros-jazzy-lynx-motor-driver
 micro_ros_agent:
