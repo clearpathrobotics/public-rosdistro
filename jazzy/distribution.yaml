@@ -128,7 +128,10 @@ repositories:
       - can_hardware
       - canopen_motor_hardware
       - hal_components
+      - hal_device
       - hal_launch
+      - hal_ros2_control
+      - hal_script_engine
       - hal_signal_interface
       - hal_signal_manager
       - modbus_hardware
@@ -136,7 +139,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/clearpath_hal-gbp.git
-      version: 0.1.2-1
+      version: 0.1.5-1
     source:
       type: git
       url: https://gitlab.clearpathrobotics.com/platform/clearpath_hal.git
