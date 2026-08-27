@@ -548,7 +548,7 @@ repositories:
       tags:
         release: release/jazzy/{package}/{version}
       url: https://gitlab.clearpathrobotics.com/gbp/valence_bms-gbp.git
-      version: 1.1.0-1
+      version: 1.1.1-2
     source:
       type: git
       url: http://gitlab.clearpathrobotics.com/research/valence_bms.git
