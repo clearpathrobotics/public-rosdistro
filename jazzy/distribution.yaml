@@ -458,6 +458,45 @@ repositories:
       url: https://github.com/clearpathrobotics/ros2_canopen.git
       version: master
     status: maintained
+  ros2_controllers:
+    release:
+      packages:
+      - ackermann_steering_controller
+      - admittance_controller
+      - battery_state_broadcaster
+      - bicycle_steering_controller
+      - chained_filter_controller
+      - diff_drive_controller
+      - effort_controllers
+      - force_torque_sensor_broadcaster
+      - forward_command_controller
+      - gpio_controllers
+      - gps_sensor_broadcaster
+      - gripper_controllers
+      - imu_sensor_broadcaster
+      - joint_state_broadcaster
+      - joint_trajectory_controller
+      - magnetometer_broadcaster
+      - mecanum_drive_controller
+      - motion_primitives_controllers
+      - omni_wheel_drive_controller
+      - parallel_gripper_controller
+      - pid_controller
+      - pose_broadcaster
+      - position_controllers
+      - range_sensor_broadcaster
+      - ros2_controllers
+      - ros2_controllers_test_nodes
+      - rqt_joint_trajectory_controller
+      - state_interfaces_broadcaster
+      - steering_controllers_library
+      - tricycle_controller
+      - tricycle_steering_controller
+      - velocity_controllers
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/ros2_controllers-release.git
+      version: 4.42.2-1
   serial:
     doc:
       type: git
