@@ -6,6 +6,25 @@ release_platforms:
   ubuntu:
   - noble
 repositories:
+  axis_camera:
+    doc:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: jazzy-devel
+    release:
+      packages:
+      - axis_camera
+      - axis_description
+      - axis_msgs
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/axis_camera-release.git
+      version: 3.0.3-1
+    source:
+      type: git
+      url: https://github.com/ros-drivers/axis_camera.git
+      version: jazzy-devel
+    status: maintained
   canfestival_ros:
     doc:
       type: git
