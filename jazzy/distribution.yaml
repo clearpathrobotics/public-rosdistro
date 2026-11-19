@@ -367,6 +367,14 @@ repositories:
         release: release/jazzy/{package}/{version}
       url: https://github.com/clearpath-gbp/micro-ROS-Agent-release.git
       version: 5.0.3-1
+  mujoco_vender:
+    release:
+      packages:
+      - mujoco_vendor
+      tags:
+        release: release/jazzy/{package}/{version}
+      url: https://github.com/clearpath-gbp/mujoco_vendor-release.git
+      version: 0.1.2-2
   nmea_navsat_driver:
     doc:
       type: git
